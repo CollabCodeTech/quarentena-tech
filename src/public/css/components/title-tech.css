@@ -1,0 +1,7 @@
+.title-tech {
+  font-family: "Bungee", sans-serif;
+  font-size: var(--size-big);
+  font-weight: bold;
+  color: var(--color-gueio-first);
+  word-wrap: break-word;
+}

@@ -1,0 +1,11 @@
+.header-tech {
+  text-align: center;
+}
+
+.header-tech > .title-tech {
+  margin-bottom: var(--gap-medium);
+}
+
+.header-tech > .content-tech {
+  margin-bottom: var(--gap-medium);
+}

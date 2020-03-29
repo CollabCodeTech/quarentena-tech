@@ -1,0 +1,13 @@
+.main-tech {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.main-tech > .wrapper-video {
+  margin-bottom: var(--gap-big);
+}
+
+.main-tech > .card-tech {
+  margin-bottom: var(--gap-big);
+}

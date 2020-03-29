@@ -1,0 +1,14 @@
+.content-tech {
+  font-size: var(--size-medium);
+  line-height: 1.4;
+}
+
+.content-tech > em {
+  text-decoration: underline;
+  text-decoration-color: var(--color-gueio-first);
+}
+.content-tech > strong {
+  background-color: var(--color-gueio-first);
+  color: var(--color-base-light);
+  padding: calc(var(--gap-smaller) / 2) var(--gap-smaller);
+}
