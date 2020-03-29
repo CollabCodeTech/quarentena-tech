@@ -1,0 +1,10 @@
+.section-video > .wrapper-social {
+  padding-top: var(--gap-smaller);
+  padding-bottom: var(--gap-medium);
+}
+
+@media (min-width: 930px) {
+  .section-video > .wrapper-social {
+    padding-bottom: var(--gap-big);
+  }
+}

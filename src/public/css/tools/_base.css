@@ -1,4 +1,8 @@
 ._container {
+  box-sizing: border-box;
   padding-left: var(--gap-small);
   padding-right: var(--gap-small);
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
 }

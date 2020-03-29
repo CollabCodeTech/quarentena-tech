@@ -13,7 +13,7 @@ export default [
     logo: "/img/codigo-falado.png",
     alt: "Logo da CollabCode com o mascote Gueio",
     content:
-      "Toda semana um desafio novo para você fazer, com aulas free e ao vivo pela Twitch e YouTube às 19hrs. É grátis de verdade, não será vendido nada!",
+      "Você precisa montar uma equipe de 3 pessoas. Faça um fork do repositório do Desafio333 usando a conta do Github de apenas um participante e registre seu time neste formulário . Depois é só começar a codar!",
     url:
       "https://github.com/codigofalado/desafio333/tree/master/2020-QuarentenaTech",
     className: "-radius"
@@ -22,7 +22,8 @@ export default [
     title: "#QuarentenaDev",
     logo: "/img/alura.jpg",
     alt: "Logo da Alura",
-    content: "Uma maratona de 10 aulas para criar seus primeiros códigos!",
+    content:
+      "Uma maratona de 10 aulas para criar seus primeiros códigos! Totalmente free e com certificado da Alura.",
     url: "https://www.alura.com.br/quarentenadev",
     className: "-radius"
   },
@@ -32,7 +33,7 @@ export default [
     alt: "Logo da Caelum",
     content:
       "Toda semana um desafio novo para você fazer, com aulas free e ao vivo pela Twitch e YouTube às 19hrs. É grátis de verdade, não será vendido nada!",
-    url: "https: //www.caelum.com.br/apostilas",
+    url: "https://www.caelum.com.br/apostilas",
     className: "-radius"
   },
   {
@@ -123,8 +124,7 @@ export default [
     alt: "Logo do Talk das minas",
     content:
       "Você não precisa ficar sozinha(o) nessa quarentena! A gente tem uma programação incrível pra você acompanhar 💙 Todo dia um tema diferente via Hangouts",
-    url:
-      "https://desenvolvedor.io/curso-online-fundamentos-de-arquitetura-de-software",
+    url: "https://www.instagram.com/talk_das_minas",
     className: "-radius"
   },
   {
@@ -226,5 +226,14 @@ export default [
       "Esse não é de graça. Mas você pode dividir sua assinatura com uma galera e ganhar até 50% de desconto na assinatura do devmedia",
     url: "https://www.devmedia.com.br/marketing/assinatura-grupo/",
     className: ""
+  },
+  {
+    title: "#FicaEmCasa",
+    logo: "/img/upinside.png",
+    alt: "Logo da Upinside",
+    content:
+      "Liberamos 8 cursos FREE para você passar por essa quarentena se preparando para voltar a 500%",
+    url: "https://pages.upinside.com.br/ficaemcasa",
+    className: "-radius"
   }
 ];

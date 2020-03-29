@@ -8,6 +8,6 @@
   margin-bottom: var(--gap-big);
 }
 
-.main-tech > .card-tech {
+.main-tech .card-tech {
   margin-bottom: var(--gap-big);
 }

@@ -1,6 +1,8 @@
 import env from "dotenv";
 import express from "express";
 import nunjucks from "nunjucks";
+import minify from "express-minify";
+import compression from "compression";
 import events from "./data/events";
 
 env.config();
@@ -13,7 +15,10 @@ nunjucks.configure("src/views", {
   watch: true
 });
 
+app.use(compression());
+app.use(minify());
 app.use(express.static("src/public"));
+
 app.get("/", (req, res) => {
   res.render("index.html", { events });
 });

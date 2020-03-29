@@ -1,4 +1,7 @@
 .wrapper-video {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   box-sizing: border-box;
   position: relative;
   padding-bottom: 56.25%;

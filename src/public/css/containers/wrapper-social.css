@@ -1,0 +1,6 @@
+.wrapper-social {
+  display: flex;
+  justify-content: space-between;
+  max-width: 320px;
+  margin: var(--gap-small) auto 0;
+}

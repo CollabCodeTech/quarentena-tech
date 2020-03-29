@@ -22,9 +22,12 @@
     <link rel="stylesheet" href="/css/components/title-tech.css" />
     <link rel="stylesheet" href="/css/components/card-tech.css" />
     <link rel="stylesheet" href="/css/components/content-tech.css" />
+    <link rel="stylesheet" href="/css/components/social-media.css" />
     <link rel="stylesheet" href="/css/containers/header-tech.css" />
     <link rel="stylesheet" href="/css/containers/wrapper-video.css" />
     <link rel="stylesheet" href="/css/containers/main-tech.css" />
+    <link rel="stylesheet" href="/css/containers/section-video.css" />
+    <link rel="stylesheet" href="/css/containers/wrapper-social.css" />
     <link rel="stylesheet" href="/css/containers/footer-tech.css" />
   </head>
   <body>
@@ -41,38 +44,77 @@
       </p>
     </header>
     <main class="main-tech _container">
-      <div class="wrapper-video">
-        <iframe
-          width="560"
-          height="315"
-          src="https://www.youtube.com/embed/Yj9-N9BEVeM"
-          frameborder="0"
-          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
-        ></iframe>
-      </div>
+      <section class="section-video">
+        <ul class="wrapper-social">
+          <li class="item">
+            <a href="https://twitch.tv/collabdode" class="social-media">
+              Twitch da CollabCode
+            </a>
+          </li>
+          <li class="item">
+            <a href="https://bit.ly/discord_collabcode" class="social-media"
+              >Discord da CollabCode
+            </a>
+          </li>
+          <li class="item">
+            <a href="https://twitter.com/collabcodetech" class="social-media"
+              >Twitter da CollabCode</a
+            >
+          </li>
+          <li class="item">
+            <a href="https://github.com/collabcodetech" class="social-media"
+              >GitHub da CollabCode</a
+            >
+          </li>
+        </ul>
+      </section>
 
-      {% for event in events %}
-      <article class="card-tech _box-shadow-card {{event.className}}">
-        <figure class="logo">
-          <img src="{{event.logo}}" alt="{{event.alt}}" class="logo" />
-        </figure>
-        <h2 class="title">{{event.title}}</h2>
-        <p class="content _container">
-          {{event.content}}
-        </p>
-        <a href="{{event.url}}?utm=collabcode" class="action _box-shadow-btn"
-          >Detalhes</a
-        >
-      </article>
-      {% endfor %}
-
-      <footer class="footer-tech _container">
-        <p class="content">
-          Conteúdo criado pela comunidade
-          <a href="" class="action">CollabCode</a>
-        </p>
-      </footer>
+      <section class="wrapper-card-tech">
+        {% for event in events %}
+        <article class="card-tech _box-shadow-card {{event.className}}">
+          <figure class="logo">
+            <img src="{{event.logo}}" alt="{{event.alt}}" class="logo" />
+          </figure>
+          <h2 class="title">{{event.title}}</h2>
+          <p class="content _container">
+            {{event.content}}
+          </p>
+          <a href="{{event.url}}" target="_blank" class="action _box-shadow-btn"
+            >Detalhes</a
+          >
+        </article>
+        {% endfor %}
+      </section>
     </main>
+
+    <footer class="footer-tech _container">
+      <p class="content">
+        Conteúdo criado pela comunidade
+        <a href="" class="action">CollabCode</a>
+      </p>
+
+      <ul class="wrapper-social">
+        <li class="item">
+          <a href="https://twitch.tv/collabdode" class="social-media">
+            Twitch da CollabCode
+          </a>
+        </li>
+        <li class="item">
+          <a href="https://bit.ly/discord_collabcode" class="social-media"
+            >Discord da CollabCode
+          </a>
+        </li>
+        <li class="item">
+          <a href="https://twitter.com/collabcodetech" class="social-media"
+            >Twitter da CollabCode</a
+          >
+        </li>
+        <li class="item">
+          <a href="https://github.com/collabcodetech" class="social-media"
+            >GitHub da CollabCode</a
+          >
+        </li>
+      </ul>
+    </footer>
   </body>
 </html>

@@ -1,14 +1,22 @@
+.wrapper-card-tech {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
 .card-tech {
   box-sizing: border-box;
   border-radius: var(--radius-big);
   background-color: var(--color-base-light);
-  display: flex;
+  display: inline-flex;
   align-items: center;
   flex-direction: column;
   padding-bottom: var(--gap-medium);
   overflow: hidden;
   transform-origin: center;
   transition: transform 200ms linear;
+  max-width: 420px;
+  margin: 0 calc(var(--gap-medium) / 2);
 }
 
 .card-tech:hover {

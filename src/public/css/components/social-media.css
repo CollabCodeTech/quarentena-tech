@@ -1,0 +1,29 @@
+.social-media {
+  display: block;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  width: 40px;
+  height: 40px;
+  text-indent: -9999px;
+  transition: transform 100ms linear;
+}
+
+.social-media:hover {
+  transform: scale(1.1);
+}
+
+.social-media[href*="twitch"] {
+  background-image: url("/img/twitch.svg");
+}
+
+.social-media[href*="discord"] {
+  background-image: url("/img/discord.svg");
+}
+
+.social-media[href*="twitter"] {
+  background-image: url("/img/twitter.svg");
+}
+
+.social-media[href*="github"] {
+  background-image: url("/img/github.svg");
+}
