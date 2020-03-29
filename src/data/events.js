@@ -142,7 +142,7 @@ export default [
     logo: "/img/desec.jpg",
     alt: "Logo da Desec",
     content:
-      "A Primeira versão do curso de Pentest Profissional não será mais comercializada, então queremos tornar público o acesso das aulas para todos que tem paixão por segurança ofensiva poder usufruir da melhor e mais aceita metodologia adotada na America Latina. ",
+      "A Primeira versão do curso de Pentest Profissional não será mais comercializada, então queremos tornar público o acesso das aulas para todos que tem paixão por segurança ofensiva poder usufruir da melhor e mais aceita metodologia adotada na America Latina.",
     url: "https://desecsecurity.com/curso/curso-pentest-gratuito",
     className: "-radius"
   },
@@ -151,7 +151,7 @@ export default [
     logo: "/img/nodebr.jpg",
     alt: "Logo da NodeBR",
     content:
-      "A Primeira versão do curso de Pentest Profissional não será mais comercializada, então queremos tornar público o acesso das aulas para todos que tem paixão por segurança ofensiva poder usufruir da melhor e mais aceita metodologia adotada na America Latina. ",
+      "Varrendo a internet, encontramos diversos treinamentos sobre Node.js e Javascript. Mas na maioria das vezes estes conteúdos são focados na mesma coisa! A grande maioria fala sobre a Stack MEAN (MongoDB, Express.js, Angular.js e Node.js), programação para Web ou apenas...",
     url: "https://treinamento.nodebr.org",
     className: "-radius"
   },
