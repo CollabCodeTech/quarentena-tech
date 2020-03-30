@@ -235,5 +235,13 @@ export default [
       "Liberamos 8 cursos FREE para você passar por essa quarentena se preparando para voltar a 500%",
     url: "https://pages.upinside.com.br/ficaemcasa",
     className: "-radius"
+  },
+  {
+    title: "#QuarentenaFlutterando",
+    logo: "/img/flutterando.jpeg",
+    alt: "Logo da Flutterando",
+    content: "Muito conteúdo de #Flutter para todos os níveis e gostos, 100% free! Pode tambem entrar nos nossos canais Discord, Telegram e fórum pra sanar duvidas e aprender ajudando alguém.",
+    url: "https://linktr.ee/Flutterando",
+    className: "-radius"
   }
 ];
