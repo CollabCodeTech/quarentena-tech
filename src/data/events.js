@@ -201,7 +201,7 @@ export default [
     className: "-radius"
   },
   {
-    title: "#JornadaDaDev",
+    title: "#JornadaDoDev",
     logo: "/img/jornada-do-dev.png",
     alt: "Logo da Jornada do dev",
     content:
