@@ -9,6 +9,14 @@ export default [
     className: ""
   },
   {
+    title: "#QuarentenaFlutterando",
+    logo: "/img/flutterando.jpeg",
+    alt: "Logo da Flutterando",
+    content: "Muito conteúdo de #Flutter para todos os níveis e gostos, 100% free! Pode tambem entrar nos nossos canais Discord, Telegram e fórum pra sanar duvidas e aprender ajudando alguém.",
+    url: "https://linktr.ee/Flutterando",
+    className: "-radius"
+  },
+  {
     title: "#Quarentena333",
     logo: "/img/codigo-falado.png",
     alt: "Logo da CollabCode com o mascote Gueio",
