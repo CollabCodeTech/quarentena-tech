@@ -106,7 +106,7 @@ export default [
     content:
       " Cursos online e gratuitos com certificado topezera para você não ver o tempo passar!",
     url: "https://lumina.ufrgs.br/",
-    className: "-radius"
+    className: ""
   },
   {
     title: "#desenvolvedor.io",
@@ -261,6 +261,6 @@ export default [
     content:
       "Todos os treinamentos gratuitos do Erick Wendel agora em um só lugar para você se empenhar nessa quarentena",
     url: "https://cursos.erickwendel.com.br/",
-    className: "-radius"
+    className: ""
   }
 ];
