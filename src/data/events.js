@@ -240,8 +240,18 @@ export default [
     title: "#QuarentenaFlutterando",
     logo: "/img/flutterando.jpeg",
     alt: "Logo da Flutterando",
-    content: "Muito conteúdo de #Flutter para todos os níveis e gostos, 100% free! Pode tambem entrar nos nossos canais Discord, Telegram e fórum pra sanar duvidas e aprender ajudando alguém.",
+    content:
+      "Muito conteúdo de #Flutter para todos os níveis e gostos, 100% free! Pode tambem entrar nos nossos canais Discord, Telegram e fórum pra sanar duvidas e aprender ajudando alguém.",
     url: "https://linktr.ee/Flutterando",
+    className: "-radius"
+  },
+  {
+    title: "Organize Eventos Online",
+    logo: "/img/impulso.jpg",
+    alt: "Logo da Impulso Network",
+    content:
+      "Estamos oferecendo toda a infraestrutura de meetups online DE GRAÇA para comunidades de tecnologia presenciais",
+    url: "https://www.getdrip.com/broadcasts/184611857/816ba107899ecf8bc7365",
     className: "-radius"
   }
 ];
