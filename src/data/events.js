@@ -262,5 +262,23 @@ export default [
       "Todos os treinamentos gratuitos do Erick Wendel agora em um só lugar para você se empenhar nessa quarentena",
     url: "https://cursos.erickwendel.com.br/",
     className: ""
+  },
+  {
+    title: "#CodeLikeAFullstackGirl",
+    logo: "/img/dio.png",
+    alt: "Logo da Digital Innovation One",
+    content:
+      "Em parceria com a Impulso Network, a DIO oferece 10.000 bolsas em curso de tecnologia para incentivar o protagonismo feminino na área",
+    url: "https://digitalinnovation.one/bootcamps/code-fullstack-girl/",
+    className: "-radius"
+  },
+  {
+    title: "#Dobraflix",
+    logo: "/img/dobra.png",
+    alt: "Logo da Dobra",
+    content:
+      "Diversos cursos de empreendedorismo, carreira e tecnologia de graça",
+    url: "https://querodobra.com.br/",
+    className: "-radius"
   }
 ];
