@@ -92,7 +92,7 @@ export default [{
     alt: "Logo da Lúmina",
     content: " Cursos online e gratuitos com certificado topezera para você não ver o tempo passar!",
     url: "https://lumina.ufrgs.br/",
-    className: "-radius"
+    className: ""
   },
   {
     title: "#desenvolvedor.io",
@@ -215,7 +215,7 @@ export default [{
     className: "-radius"
   },
   {
-    title: "Organize Eventos Online",
+    title: "#OrganizeEventosOnline",
     logo: "/img/impulso.jpg",
     alt: "Logo da Impulso Network",
     content: "Estamos oferecendo toda a infraestrutura de meetups online DE GRAÇA para comunidades de tecnologia presenciais",
@@ -223,11 +223,20 @@ export default [{
     className: "-radius"
   },
   {
-    title: "Novidades no Vue.js 3",
+    title: "#NovidadesNoVue.js3",
     logo: "/img/vedovelli.jpg",
     alt: "Logo da Vedovelli",
     content: "Com a proximidade do lançamento da versão 3 do Vue.js é tempo de demonstrar algumas de suas novidades. As aulas são 100% gratuitas. Aproveite e compartilhe com os amigos! ",
     url: "https://classes.vedovelli.com.br/courses",
     className: "-radius"
+  },
+  {
+    title: "#Ew.it",
+    logo: "/img/ew-it.png",
+    alt: "Logo da EW IT",
+    content:
+      "Todos os treinamentos gratuitos do Erick Wendel agora em um só lugar para você se empenhar nessa quarentena",
+    url: "https://cursos.erickwendel.com.br/",
+    className: ""
   }
 ];

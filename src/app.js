@@ -25,5 +25,5 @@ app.get("/", (req, res) => {
 
 app.listen(PORT, () => {
   console.log(`Serve in http://localhost:${PORT}`);
-  console.log("Shotdown: ctrl + c");
+  console.log("Shutdown: ctrl + c");
 });
