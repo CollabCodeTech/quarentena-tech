@@ -246,12 +246,21 @@ export default [
     className: "-radius"
   },
   {
-    title: "Organize Eventos Online",
+    title: "#OrganizeEventosOnline",
     logo: "/img/impulso.jpg",
     alt: "Logo da Impulso Network",
     content:
       "Estamos oferecendo toda a infraestrutura de meetups online DE GRAÇA para comunidades de tecnologia presenciais",
     url: "https://www.getdrip.com/broadcasts/184611857/816ba107899ecf8bc7365",
+    className: "-radius"
+  },
+  {
+    title: "#Ew.it",
+    logo: "/img/ew-it.png",
+    alt: "Logo da EW IT",
+    content:
+      "Todos os treinamentos gratuitos do Erick Wendel agora em um só lugar para você se empenhar nessa quarentena",
+    url: "https://cursos.erickwendel.com.br/",
     className: "-radius"
   }
 ];
