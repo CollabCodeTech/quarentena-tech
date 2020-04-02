@@ -256,5 +256,14 @@ export default [{
       "Diversos cursos de empreendedorismo, carreira e tecnologia de graça",
     url: "https://querodobra.com.br/",
     className: "-radius"
-  }
+  },
+  {
+    title: "#CloudCamp",
+    logo: "/img/cloudcamp.png",
+    alt: "Logo CloudCamp",
+    content:
+      "Durante o período da quarentena, Vamos liberar nosso treinamento de forma 100% Gratuita com conteúdo focado em Cloud e Devops. E nosso desafio principal será subir uma arquitetura em cloud robusta com pipelines CI/CD. Então #BORAAPRENDER",
+    url: "https://treinacloud.com.br/cloudcamp/quarentena/",
+    className: "-radius"
+  }                
 ];
