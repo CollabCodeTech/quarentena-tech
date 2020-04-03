@@ -16,7 +16,7 @@
 }
 
 #page .card-tc:hover {
-  transform: scale(1.05);
+  transform: scale(1.02);
 }
 
 .card-tc > .logo {
@@ -47,4 +47,10 @@
 .card-tc > .action {
   width: 100%;
   margin-top: auto;
+}
+
+@media (min-width: 800px) {
+  #page .card-tc:hover {
+    transform: scale(1.05);
+  }
 }
