@@ -9,6 +9,10 @@
       href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
       rel="stylesheet"
     />
+    <link
+      href="https://unpkg.com/nes.css@latest/css/nes.min.css"
+      rel="stylesheet"
+    />
 
     <link rel="shortcut icon" href="/favicon/favicon.ico" type="image/x-icon" />
 
@@ -34,31 +38,16 @@
     <link rel="stylesheet" href="/css/settings/colors.css" />
     <link rel="stylesheet" href="/css/settings/sizes.css" />
     <link rel="stylesheet" href="/css/settings/gaps.css" />
-    <link rel="stylesheet" href="/css/settings/radius.css" />
-    <link rel="stylesheet" href="/css/tools/_shadow.css" />
     <link rel="stylesheet" href="/css/tools/_base.css" />
     <link rel="stylesheet" href="/css/generic/reset.css" />
     <link rel="stylesheet" href="/css/elements/base.css" />
-    <link rel="stylesheet" href="/css/elements/content.css" />
-    <link rel="stylesheet" href="/css/components/title-tech.css" />
-    <link rel="stylesheet" href="/css/components/logo-tech.css" />
-    <link rel="stylesheet" href="/css/components/card-tech.css" />
-    <link rel="stylesheet" href="/css/components/content-tech.css" />
-    <link rel="stylesheet" href="/css/containers/wrapper-video.css" />
-    <link rel="stylesheet" href="/css/containers/main-tech.css" />
-    <link rel="stylesheet" href="/css/containers/section-video.css" />
-    <link rel="stylesheet" href="/css/containers/wrapper-social.css" />
-    <link rel="stylesheet" href="/css/containers/footer-tech.css" />
-
-    <link
-      href="https://unpkg.com/nes.css@latest/css/nes.min.css"
-      rel="stylesheet"
-    />
-
+    <link rel="stylesheet" href="/css/containers/footer-tc.css" />
     <link rel="stylesheet" href="/css/components/logo-tc.css" />
     <link rel="stylesheet" href="/css/components/title-tc.css" />
     <link rel="stylesheet" href="/css/components/card-tc.css" />
+    <link rel="stylesheet" href="/css/components/social-media.css">
     <link rel="stylesheet" href="/css/containers/header-tc.css" />
+    <link rel="stylesheet" href="/css/containers/wrapper-social.css" />
     <link rel="stylesheet" href="/css/containers/banner-tc.css" />
 
     <meta
@@ -75,7 +64,7 @@
     <meta property="og:image" content="https://quarentena.tech/img/seo.jpg" />
   </head>
   <body id="page">
-    <header class="header-tc nes-container is-rounded is-dark">
+    <header class="header-tc nes-container is-rounded">
       <figure class="logo-tc">
         <img class="gueio" src="/img/jedi.png" alt="Gueio Jedi" />
         <figcaption class="text">#Quarentena.Tech</figcaption>
@@ -86,34 +75,34 @@
       <p class="title-tc title">Objetivo</p>
       <p>
         Nesse momento complicado que estamos passando, felizmente têm muitas
-        pessoas, comunidades e empresas realizando pequenos eventos
+        pessoas, comunidades e empresas realizando pequenos eventos,
         <em class="medium">100% online</em> e de
         <em class="medium">graça</em> pra galera. A comunidade da
         <strong class="high">CollabCode</strong> criou esse site com o objetivo
-        de juntar todos essas iniciativas maravilhosos que estão nos ajudando a
+        de juntar todas essas iniciativas maravilhosas que estão nos ajudando a
         passar por essa crise de uma forma mais feliz!
       </p>
     </section>
 
-    <main class="main-tech _container">
+    <main class="_container">
       <section class="section-video">
         <nav class="wrapper-social icon-list">
-          <a href="https://twitch.tv/collabdode" class="social-media">
-            <i class="nes-icon twitch is-large"></i>
+          <a href="https://twitch.tv/collabdode">
+            <i class="social-media nes-icon twitch is-large"></i>
           </a>
-          <a href="https://bit.ly/discord_collabcode" class="social-media">
-            <i class="nes-icon discord is-large"></i>
+          <a href="https://bit.ly/discord_collabcode">
+            <i class="social-media nes-icon discord is-large"></i>
           </a>
-          <a href="https://twitter.com/collabcodetech" class="social-media">
-            <i class="nes-icon twitter is-large"></i>
+          <a href="https://twitter.com/collabcodetech">
+            <i class="social-media nes-icon twitter is-large"></i>
           </a>
-          <a href="https://github.com/collabcodetech/quarentena-tech" class="social-media">
-            <i class="nes-icon github is-large"></i>
+          <a href="https://github.com/collabcodetech/quarentena-tech">
+            <i class="social-media nes-icon github is-large"></i>
           </a>
         </nav>
       </section>
 
-      <section class="wrapper-card-tech">
+      <section class="wrapper-card-tc">
         {% for event in events %}
           <article class="card-tc nes-container is-rounded {{event.className}}">
             <img class="logo" src="{{event.logo}}" alt="{{event.alt}}"/>
@@ -130,7 +119,7 @@
       </section>
     </main>
 
-    <footer class="footer-tech _container">
+    <footer class="footer-tc _container">
       <p class="content">
         Conteúdo criado pela comunidade
         <a href="" class="action">CollabCode</a>
@@ -139,22 +128,22 @@
       <ul class="wrapper-social">
         <li class="item">
           <a href="https://twitch.tv/collabdode" class="social-media">
-            <i class="nes-icon twitch is-large"></i>
+            <i class="social-media nes-icon twitch is-large"></i>
           </a>
         </li>
         <li class="item">
           <a href="https://bit.ly/discord_collabcode" class="social-media"
-          <i class="nes-icon discord is-large"></i>
+          <i class="social-media nes-icon discord is-large"></i>
           </a>
         </li>
         <li class="item">
           <a href="https://twitter.com/collabcodetech" class="social-media">
-            <i class="nes-icon twitter is-large"></i>
+            <i class="social-media nes-icon twitter is-large"></i>
           </a>
         </li>
         <li class="item">
           <a href="https://github.com/collabcodetech" class="social-media">
-            <i class="nes-icon twitch is-large"></i>
+            <i class="social-media nes-icon twitch is-large"></i>
           </a>
         </li>
       </ul>

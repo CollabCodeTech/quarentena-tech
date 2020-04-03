@@ -1,26 +1,47 @@
+.wrapper-card-tc {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
 #page .card-tc {
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
   max-width: 430px;
-  margin-bottom: var(--gap-big);
+  margin-bottom: var(--gap-medium);
+  transition: transform 100ms linear;
+  background-color: var(--color-base-light);
+}
+
+#page .card-tc:hover {
+  transform: scale(1.05);
 }
 
 .card-tc > .logo {
   height: 300px;
   margin-bottom: var(--gap-medium);
+  filter: grayscale(100%);
+}
+
+.card-tc > .logo:hover {
+  filter: grayscale(0);
 }
 
 .card-tc > .title {
+  color: var(--color-gueio-first);
   font-size: var(--size-medium);
   margin-bottom: var(--gap-small);
   word-wrap: break-word;
+  width: 100%;
 }
 
 .card-tc > .content {
   padding-left: 0;
   padding-right: 0;
   margin-bottom: var(--gap-big);
+  line-height: 1.4;
 }
 
 .card-tc > .action {

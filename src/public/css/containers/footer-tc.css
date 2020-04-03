@@ -1,13 +1,12 @@
-.footer-tech {
+.footer-tc {
   padding-top: var(--gap-medium);
   padding-bottom: var(--gap-medium);
   margin-top: var(--gap-big);
   text-align: center;
-  border-top: 2px solid var(--color-gueio-first);
   font-size: var(--size-small);
 }
 
-.footer-tech .action {
+.footer-tc .action {
   display: block;
   font-size: var(--size-medium);
   margin-top: var(--gap-smaller);

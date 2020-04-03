@@ -12,4 +12,5 @@
 .logo-tc > .text {
   font-size: var(--size-medium);
   line-height: 1;
+  color: var(--color-gueio-first);
 }

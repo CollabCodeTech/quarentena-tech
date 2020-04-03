@@ -1,5 +1,6 @@
 .banner-tc {
-  margin: 0 var(--gap-small) var(--gap-small);
+  margin: 0 var(--gap-medium) var(--gap-small);
+  background-color: var(--color-base-light);
 }
 
 .banner-tc .high {
