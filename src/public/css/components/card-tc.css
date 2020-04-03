@@ -25,7 +25,7 @@
   filter: grayscale(100%);
 }
 
-.card-tc > .logo:hover {
+.card-tc:hover > .logo {
   filter: grayscale(0);
 }
 

@@ -41,14 +41,15 @@
     <link rel="stylesheet" href="/css/tools/_base.css" />
     <link rel="stylesheet" href="/css/generic/reset.css" />
     <link rel="stylesheet" href="/css/elements/base.css" />
-    <link rel="stylesheet" href="/css/containers/footer-tc.css" />
     <link rel="stylesheet" href="/css/components/logo-tc.css" />
     <link rel="stylesheet" href="/css/components/title-tc.css" />
     <link rel="stylesheet" href="/css/components/card-tc.css" />
-    <link rel="stylesheet" href="/css/components/social-media.css">
+    <link rel="stylesheet" href="/css/components/social-media.css" />
     <link rel="stylesheet" href="/css/containers/header-tc.css" />
+    <link rel="stylesheet" href="/css/containers/main-tc.css" />
     <link rel="stylesheet" href="/css/containers/wrapper-social.css" />
     <link rel="stylesheet" href="/css/containers/banner-tc.css" />
+    <link rel="stylesheet" href="/css/containers/footer-tc.css" />
 
     <meta
       property="og:title"
@@ -73,7 +74,7 @@
 
     <section class="banner-tc nes-container with-title is-centered">
       <p class="title-tc title">Objetivo</p>
-      <p>
+      <p class="content">
         Nesse momento complicado que estamos passando, felizmente têm muitas
         pessoas, comunidades e empresas realizando pequenos eventos,
         <em class="medium">100% online</em> e de
@@ -82,16 +83,15 @@
         de juntar todas essas iniciativas maravilhosas que estão nos ajudando a
         passar por essa crise de uma forma mais feliz!
       </p>
+
+      <i class="nes-icon is-large heart"></i>
     </section>
 
-    <main class="_container">
+    <main class="main-tc _container">
       <section class="section-video">
         <nav class="wrapper-social icon-list">
           <a href="https://twitch.tv/collabdode">
             <i class="social-media nes-icon twitch is-large"></i>
-          </a>
-          <a href="https://bit.ly/discord_collabcode">
-            <i class="social-media nes-icon discord is-large"></i>
           </a>
           <a href="https://twitter.com/collabcodetech">
             <i class="social-media nes-icon twitter is-large"></i>
@@ -104,36 +104,36 @@
 
       <section class="wrapper-card-tc">
         {% for event in events %}
-          <article class="card-tc nes-container is-rounded {{event.className}}">
-            <img class="logo" src="{{event.logo}}" alt="{{event.alt}}"/>
+        <article class="card-tc nes-container is-rounded {{event.className}}">
+          <img class="logo" src="{{event.logo}}" alt="{{event.alt}}" />
 
-            <h2 class="title">{{event.title}}</h2>
-            <p class="content _container">
-              {{event.content}}
-            </p>
-            <a href="{{event.url}}" target="_blank" class="action nes-btn is-error"
-              >Detalhes</a
-            >
-          </article>
+          <h2 class="title">{{event.title}}</h2>
+          <p class="content _container">
+            {{event.content}}
+          </p>
+          <a
+            href="{{event.url}}"
+            target="_blank"
+            class="action nes-btn is-error"
+            >Detalhes</a
+          >
+        </article>
         {% endfor %}
       </section>
     </main>
 
-    <footer class="footer-tc _container">
+    <footer class="footer-tc nes-container is-rounded">
       <p class="content">
         Conteúdo criado pela comunidade
-        <a href="" class="action">CollabCode</a>
+        <a href="https://bit.ly/discord-collabcode" class="action"
+          >CollabCode</a
+        >
       </p>
 
       <ul class="wrapper-social">
         <li class="item">
           <a href="https://twitch.tv/collabdode" class="social-media">
             <i class="social-media nes-icon twitch is-large"></i>
-          </a>
-        </li>
-        <li class="item">
-          <a href="https://bit.ly/discord_collabcode" class="social-media"
-          <i class="social-media nes-icon discord is-large"></i>
           </a>
         </li>
         <li class="item">

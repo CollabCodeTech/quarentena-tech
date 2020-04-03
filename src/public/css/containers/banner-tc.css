@@ -1,5 +1,5 @@
 .banner-tc {
-  margin: 0 var(--gap-medium) var(--gap-small);
+  margin: 0 var(--gap-small) var(--gap-medium);
   background-color: var(--color-base-light);
 }
 
@@ -9,6 +9,11 @@
 
 .banner-tc .medium {
   color: var(--color-status-first);
+}
+
+.banner-tc > .content {
+  line-height: 1.4;
+  margin-bottom: var(--gap-small);
 }
 
 @media (min-width: 900px) {
