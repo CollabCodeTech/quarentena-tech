@@ -264,5 +264,14 @@ export default [{
     content: "Mais de 7.000 cursos gratuitos no Pluralsight, uma das maiores plataformas de cursos de tecnologia do mundo",
     url: "https://www.pluralsight.com/offer/2020/free-april-month",
     className: "-radius"
-}
+},
+  {
+    title: "#CloudCamp",
+    logo: "/img/cloudcamp.png",
+    alt: "Logo CloudCamp",
+    content:
+      "Durante o período da quarentena, Vamos liberar nosso treinamento de forma 100% Gratuita com conteúdo focado em Cloud e Devops. E nosso desafio principal será subir uma arquitetura em cloud robusta com pipelines CI/CD. Então #BORAAPRENDER",
+    url: "https://treinacloud.com.br/cloudcamp/quarentena/",
+    className: "-radius"
+  }                
 ];
