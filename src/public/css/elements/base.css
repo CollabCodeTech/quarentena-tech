@@ -1,3 +1,8 @@
+html,
+body {
+  min-width: 360px;
+}
+
 body {
   background-color: var(--color-gueio-second);
   font-family: "Press Start 2P", cursive;
