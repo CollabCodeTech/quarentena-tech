@@ -19,7 +19,7 @@
 }
 
 .card-tc > .logo {
-  height: 290px;
+  width: 80%;
   margin-bottom: var(--gap-medium);
   filter: grayscale(100%);
 }
@@ -49,7 +49,14 @@
 }
 
 @media (min-width: 464px) {
-  align-items: center;
+  .wrapper-card-tc {
+    align-items: center;
+  }
+
+  .card-tc > .logo {
+    height: 290px;
+    width: auto;
+  }
 }
 
 @media (min-width: 800px) {
