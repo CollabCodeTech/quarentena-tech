@@ -1,0 +1,15 @@
+.logo-tc {
+  display: flex;
+  align-items: flex-end;
+}
+
+.logo-tc > .gueio {
+  height: 100%;
+  max-height: 70px;
+  margin-right: var(--gap-smaller);
+}
+
+.logo-tc > .text {
+  font-size: var(--size-medium);
+  line-height: 1;
+}

@@ -1,0 +1,19 @@
+.page .header-tc {
+  position: relative;
+  height: 80px;
+  margin-bottom: var(--gap-medium);
+}
+
+.header-tc > .logo-tc {
+  position: absolute;
+  align-items: center;
+  height: 89%;
+  top: 4px;
+}
+
+.header-tc > .logo-tc > .text {
+  font-size: 20px;
+  width: 245px;
+  word-wrap: break-word;
+  line-height: 1.2;
+}
