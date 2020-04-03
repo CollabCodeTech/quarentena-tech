@@ -1,7 +1,7 @@
-.page .header-tc {
+#page .header-tc {
   position: relative;
   height: 80px;
-  margin-bottom: var(--gap-medium);
+  margin-bottom: var(--gap-big);
 }
 
 .header-tc > .logo-tc {
