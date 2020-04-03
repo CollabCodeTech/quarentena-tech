@@ -33,7 +33,7 @@
   font-size: 1.2em;
   margin-bottom: var(--gap-medium);
   word-wrap: break-word;
-  width: 80%;
+  width: 100%;
 }
 
 .card-tc > .content {
