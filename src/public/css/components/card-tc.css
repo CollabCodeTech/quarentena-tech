@@ -1,0 +1,29 @@
+#page .card-tc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 430px;
+  margin-bottom: var(--gap-big);
+}
+
+.card-tc > .logo {
+  height: 300px;
+  margin-bottom: var(--gap-medium);
+}
+
+.card-tc > .title {
+  font-size: var(--size-medium);
+  margin-bottom: var(--gap-small);
+  word-wrap: break-word;
+}
+
+.card-tc > .content {
+  padding-left: 0;
+  padding-right: 0;
+  margin-bottom: var(--gap-big);
+}
+
+.card-tc > .action {
+  width: 100%;
+  margin-top: auto;
+}

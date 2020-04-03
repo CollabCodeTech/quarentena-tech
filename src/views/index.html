@@ -57,6 +57,7 @@
 
     <link rel="stylesheet" href="/css/components/logo-tc.css" />
     <link rel="stylesheet" href="/css/components/title-tc.css" />
+    <link rel="stylesheet" href="/css/components/card-tc.css" />
     <link rel="stylesheet" href="/css/containers/header-tc.css" />
     <link rel="stylesheet" href="/css/containers/banner-tc.css" />
 
@@ -114,18 +115,17 @@
 
       <section class="wrapper-card-tech">
         {% for event in events %}
-        <article class="card-tech _box-shadow-card {{event.className}}">
-          <figure class="logo">
-            <img src="{{event.logo}}" alt="{{event.alt}}" class="logo" />
-          </figure>
-          <h2 class="title">{{event.title}}</h2>
-          <p class="content _container">
-            {{event.content}}
-          </p>
-          <a href="{{event.url}}" target="_blank" class="action _box-shadow-btn"
-            >Detalhes</a
-          >
-        </article>
+          <article class="card-tc nes-container is-rounded {{event.className}}">
+            <img class="logo" src="{{event.logo}}" alt="{{event.alt}}"/>
+
+            <h2 class="title">{{event.title}}</h2>
+            <p class="content _container">
+              {{event.content}}
+            </p>
+            <a href="{{event.url}}" target="_blank" class="action nes-btn is-error"
+              >Detalhes</a
+            >
+          </article>
         {% endfor %}
       </section>
     </main>
