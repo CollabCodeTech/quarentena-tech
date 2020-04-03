@@ -1,7 +1,7 @@
 .wrapper-card-tc {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
 }
 
 #page .card-tc {
@@ -20,7 +20,7 @@
 }
 
 .card-tc > .logo {
-  height: 300px;
+  height: 290px;
   margin-bottom: var(--gap-medium);
   filter: grayscale(100%);
 }
@@ -31,10 +31,10 @@
 
 .card-tc > .title {
   color: var(--color-gueio-first);
-  font-size: var(--size-medium);
-  margin-bottom: var(--gap-small);
+  font-size: 1.2em;
+  margin-bottom: var(--gap-medium);
   word-wrap: break-word;
-  width: 100%;
+  width: 80%;
 }
 
 .card-tc > .content {
@@ -52,5 +52,14 @@
 @media (min-width: 800px) {
   #page .card-tc:hover {
     transform: scale(1.05);
+  }
+}
+
+@media (min-width: 890px) {
+  .wrapper-card-tc {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: stretch;
   }
 }
