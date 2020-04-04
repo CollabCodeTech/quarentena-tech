@@ -41,7 +41,7 @@ export default [
     logo: "/img/caelum.png",
     alt: "Logo da Caelum",
     content:
-      "Toda semana um desafio novo para você fazer, com aulas free e ao vivo pela Twitch e YouTube às 19hrs. É grátis de verdade, não será vendido nada!",
+      "Apostila de FrontEnd, UX, Python, Java e C# de graça para você baixar e estudar de forma feliz!",
     url: "https://www.caelum.com.br/apostilas",
     className: "-radius"
   },
