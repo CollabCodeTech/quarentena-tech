@@ -3,6 +3,8 @@
   align-items: center;
   height: 60px;
   margin-bottom: var(--gap-small);
+  padding-top: 0;
+  padding-bottom: 0;
 }
 .button-social:last-of-type {
   margin-bottom: var(--gap-medium);
