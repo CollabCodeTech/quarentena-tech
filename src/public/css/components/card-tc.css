@@ -68,6 +68,10 @@
   line-height: 1.4;
 }
 
+.card-tc.is-dark > .content:before {
+  background-color: var(--color-nes-dark);
+}
+
 .card-tc > .action {
   width: 100%;
   margin-top: auto;
