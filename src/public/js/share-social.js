@@ -26,7 +26,7 @@ const share = (function() {
         .share({
           title: "Quarentena Tech",
           text:
-            "Nesse momento complicado que estamos passando, felizmente têm muitas pessoas, comunidades e empresas realizando pequenos eventos 100% online e de graça pra galera.",
+            "Site com uma lista de conteúdos gratuitos e online sobre programação",
           url
         })
         .then(function() {
