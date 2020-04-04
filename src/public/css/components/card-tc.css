@@ -41,12 +41,30 @@
   margin-bottom: var(--gap-medium);
   word-wrap: break-word;
   width: 100%;
+  line-height: 1.4;
+  height: 2.8em;
 }
 
 .card-tc > .content {
+  display: flex;
+  justify-content: center;
   padding-left: 0;
   padding-right: 0;
   margin-bottom: var(--gap-big);
+  line-height: 1.4;
+  height: 8.4em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  position: relative;
+  margin-right: -1em;
+  padding-right: 1em;
+}
+.card-tc > .content:before {
+  content: "...";
+  position: absolute;
+  bottom: 0;
+  background-color: var(--color-base-light);
+  width: 100%;
   line-height: 1.4;
 }
 

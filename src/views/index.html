@@ -43,6 +43,7 @@
     <link rel="stylesheet" href="/css/components/card-tc.css" />
     <link rel="stylesheet" href="/css/components/social-media.css" />
     <link rel="stylesheet" href="/css/components/heart-tc.css" />
+    <link rel="stylesheet" href="/css/components/button-social.css" />
     <link rel="stylesheet" href="/css/containers/header-tc.css" />
     <link rel="stylesheet" href="/css/containers/main-tc.css" />
     <link rel="stylesheet" href="/css/containers/wrapper-social.css" />
@@ -105,6 +106,8 @@
         </nav>
       </section>
 
+      <script src="/js/share-social.js"></script>
+
       <section class="wrapper-card-tc">
         {% for event in events %}
         <article class="card-tc nes-container is-rounded {{event.className}}">
@@ -114,6 +117,15 @@
           <p class="content _container">
             {{event.content}}
           </p>
+
+          <button
+            class="button-social nes-btn is-warning"
+            onclick="shareFacebook('https://quarentena.tech')"
+          >
+            Compartilhar
+            <i class="icon nes-icon facebook is-medium"></i>
+          </button>
+
           <a
             href="{{event.url}}"
             target="_blank"

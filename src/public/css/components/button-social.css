@@ -1,0 +1,13 @@
+.button-social {
+  display: flex;
+  align-items: center;
+  height: 60px;
+  margin-bottom: var(--gap-small);
+}
+.button-social:last-of-type {
+  margin-bottom: var(--gap-medium);
+}
+
+.button-social > .icon {
+  transform: scale(2.4) translate(4px, 2px);
+}
