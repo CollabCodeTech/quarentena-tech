@@ -110,10 +110,7 @@
 
       <section class="wrapper-card-tc">
         {% for event in events %}
-        <article
-          id="{{event.title.replace('#', '')}}"
-          class="card-tc nes-container is-rounded {{event.className}}"
-        >
+        <article class="card-tc nes-container is-rounded {{event.className}}">
           <img class="logo" src="{{event.logo}}" alt="{{event.alt}}" />
 
           <h2 class="title">{{event.title}}</h2>
@@ -123,7 +120,7 @@
 
           <button
             class="button-social nes-btn is-warning"
-            onclick="shareFacebook('https://quarentena.tech{{event.title}}')"
+            onclick="shareFacebook('https://quarentena.tech')"
           >
             Compartilhar
             <i class="icon nes-icon facebook is-medium"></i>
