@@ -1,13 +1,47 @@
-function shareFacebook(url) {
-  const width = 630;
-  const height = 630;
+"use strict";
 
-  const left = screen.width / 2 - width / 2;
-  const top = screen.height / 2 - height / 2;
+const share = (function() {
+  const $canonical = document.querySelector("link[rel=canonical]");
+  const url = $canonical
+    ? $canonical.getAttribute("href")
+    : window.location.href;
 
-  window.open(
-    `http://www.facebook.com/sharer.php?u=${url}`,
-    "Compartilhar no facebook",
-    `toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=yes, resizable=no, copyhistory=no, width=${width}, height=${height}, top=${top}, left=${left}`
-  );
-}
+  function facebook() {
+    const width = 630;
+    const height = 630;
+
+    const left = screen.width / 2 - width / 2;
+    const top = screen.height / 2 - height / 2;
+
+    window.open(
+      `http://www.facebook.com/sharer.php?u=${url}`,
+      "Compartilhar no facebook",
+      `toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=yes, resizable=no, copyhistory=no, width=${width}, height=${height}, top=${top}, left=${left}`
+    );
+  }
+
+  function withWebApi(event) {
+    if (navigator && navigator.share) {
+      navigator
+        .share({
+          title: "Quarentena Tech",
+          text:
+            "Nesse momento complicado que estamos passando, felizmente têm muitas pessoas, comunidades e empresas realizando pequenos eventos 100% online e de graça pra galera.",
+          url
+        })
+        .then(function() {
+          console.log("Funcionou!!");
+        })
+        .catch(function(err) {
+          console.error(err);
+        });
+    } else {
+      facebook();
+    }
+    event.preventDefault();
+  }
+
+  return {
+    withWebApi
+  };
+})();
