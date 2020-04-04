@@ -19,6 +19,15 @@ export default [
     className: "-radius"
   },
   {
+    title: "#GlauciaLemos",
+    logo: "/img/glaucia-lemos.png",
+    alt: "Foto da Glaucia Lemos feliz",
+    content:
+      "Canal dedicado a todos que desejam aprender a programar em diferentes linguagens de programação, em especial - linguagens open source! Venham aprender cada vez mais aqui!",
+    url: "https://www.youtube.com/user/l32759",
+    className: "-radius"
+  },
+  {
     title: "#QuarentenaDev",
     logo: "/img/alura.jpg",
     alt: "Logo da Alura",
