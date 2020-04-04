@@ -270,7 +270,7 @@ export default [
     content:
       "Todos os treinamentos gratuitos do Erick Wendel agora em um só lugar para você se empenhar nessa quarentena",
     url: "https://cursos.erickwendel.com.br/",
-    className: ""
+    className: "-radius"
   },
   {
     title: "#CodeLikeAFullstackGirl",

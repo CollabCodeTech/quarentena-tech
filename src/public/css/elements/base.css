@@ -7,3 +7,11 @@ body {
   background-color: var(--color-gueio-second);
   font-family: "Press Start 2P", cursive;
 }
+
+body.is-dark {
+  background-color: var(--color-gueio-third);
+}
+
+[class*="nes"] {
+  transition: background-color 100ms ease-out;
+}

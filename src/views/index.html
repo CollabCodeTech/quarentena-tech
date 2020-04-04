@@ -4,7 +4,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Quarentena Tech</title>
-
     <link
       href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
       rel="stylesheet"
@@ -13,9 +12,7 @@
       href="https://unpkg.com/nes.css@latest/css/nes.min.css"
       rel="stylesheet"
     />
-
     <link rel="shortcut icon" href="/favicon/favicon.ico" type="image/x-icon" />
-
     <link
       rel="icon"
       type="image/png"
@@ -43,7 +40,6 @@
     <link rel="stylesheet" href="/css/elements/base.css" />
     <link rel="stylesheet" href="/css/components/logo-tc.css" />
     <link rel="stylesheet" href="/css/components/title-tc.css" />
-    <link rel="stylesheet" href="/css/components/discord-tc.css" />
     <link rel="stylesheet" href="/css/components/card-tc.css" />
     <link rel="stylesheet" href="/css/components/social-media.css" />
     <link rel="stylesheet" href="/css/components/heart-tc.css" />
@@ -66,12 +62,17 @@
     <meta property="og:type" content="website" />
     <meta property="og:image" content="https://quarentena.tech/img/seo.jpg" />
   </head>
-  <body id="page">
+  <body id="page" class="nes">
     <header class="header-tc nes-container is-rounded">
       <figure class="logo-tc">
         <img class="gueio" src="/img/jedi.png" alt="Gueio Jedi" />
         <figcaption class="text">#Quarentena.Tech</figcaption>
       </figure>
+
+      <label id="dark-mode" class="mode">
+        <input type="checkbox" class="nes-checkbox" />
+        <span>Dark</span>
+      </label>
     </header>
 
     <section class="banner-tc nes-container with-title is-centered">
@@ -150,5 +151,7 @@
         </li>
       </ul>
     </footer>
+
+    <script src="/js/dark-mode.js"></script>
   </body>
 </html>

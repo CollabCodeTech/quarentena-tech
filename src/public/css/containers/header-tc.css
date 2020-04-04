@@ -1,20 +1,41 @@
 #page .header-tc {
+  display: flex;
+  align-items: center;
   position: relative;
   height: 80px;
   margin-bottom: var(--gap-big);
+}
+
+#page .header-tc:not(.is-dark) {
   background-color: var(--color-base-light);
 }
 
 .header-tc > .logo-tc {
   position: absolute;
   align-items: center;
+  height: 110%;
+}
+
+.header-tc.is-dark > .logo-tc {
   height: 89%;
-  top: 4px;
 }
 
 .header-tc > .logo-tc > .text {
+  display: none;
   font-size: 20px;
   width: 245px;
   word-wrap: break-word;
   line-height: 1.2;
+}
+
+.header-tc > .mode {
+  display: block;
+  width: 115px;
+  margin-left: auto;
+}
+
+@media (min-width: 560px) {
+  .header-tc > .logo-tc > .text {
+    display: block;
+  }
 }

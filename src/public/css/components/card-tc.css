@@ -11,6 +11,9 @@
   max-width: 430px;
   margin-bottom: var(--gap-medium);
   transition: transform 100ms linear;
+}
+
+#page .card-tc:not(.is-dark) {
   background-color: var(--color-base-light);
 }
 
@@ -26,6 +29,10 @@
 
 .card-tc:hover > .logo {
   filter: grayscale(0);
+}
+
+.card-tc.-radius > .logo {
+  border-radius: 50%;
 }
 
 .card-tc > .title {
