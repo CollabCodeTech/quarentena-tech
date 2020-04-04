@@ -1,7 +1,7 @@
 .social-media {
-  transition: transform 100ms linear;
+  transition: transform 50ms linear;
 }
 
 .social-media:hover {
-  transform: translateY(-10px) scale(4);
+  transform: translateY(-5px) scale(4);
 }

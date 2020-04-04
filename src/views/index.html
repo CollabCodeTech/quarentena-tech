@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Quarentena Tech</title>
+
+    <link rel="canonical" href="https://quarentena.tech" />
     <link
       href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
       rel="stylesheet"
@@ -32,6 +34,7 @@
       href="/favicon/favicon-16x16.png"
     />
 
+    <link rel="stylesheet" href="/css/components/need-js" />
     <link rel="stylesheet" href="/css/settings/colors.css" />
     <link rel="stylesheet" href="/css/settings/sizes.css" />
     <link rel="stylesheet" href="/css/settings/gaps.css" />
@@ -44,6 +47,7 @@
     <link rel="stylesheet" href="/css/components/social-media.css" />
     <link rel="stylesheet" href="/css/components/heart-tc.css" />
     <link rel="stylesheet" href="/css/components/discord-tc.css" />
+    <link rel="stylesheet" href="/css/components/button-social.css" />
     <link rel="stylesheet" href="/css/containers/header-tc.css" />
     <link rel="stylesheet" href="/css/containers/main-tc.css" />
     <link rel="stylesheet" href="/css/containers/wrapper-social.css" />
@@ -58,7 +62,7 @@
     <meta property="og:url" content="https://quarentena.tech" />
     <meta
       property="og:description"
-      content="Nesse momento complicado que estamos passando, felizmente têm muitas pessoas, comunidades e empresas realizando pequenos eventos 100% online e de graça pra galera. "
+      content="Nesse momento complicado que estamos passando, felizmente têm muitas pessoas, comunidades e empresas realizando pequenos eventos 100% online e de graça pra galera."
     />
     <meta property="og:type" content="website" />
     <meta property="og:image" content="https://quarentena.tech/img/seo.jpg" />
@@ -70,7 +74,7 @@
         <figcaption class="text">#Quarentena.Tech</figcaption>
       </figure>
 
-      <label id="dark-mode" class="mode">
+      <label id="dark-mode" class="mode need-js">
         <input type="checkbox" class="nes-checkbox" />
         <span>Dark</span>
       </label>
@@ -125,6 +129,8 @@
         </nav>
       </section>
 
+      <script src="/js/share-social.js"></script>
+
       <section class="wrapper-card-tc">
         {% for event in events %}
         <article class="card-tc nes-container is-rounded {{event.className}}">
@@ -134,6 +140,15 @@
           <p class="content _container">
             {{event.content}}
           </p>
+
+          <button
+            class="button-social nes-btn is-warning"
+            onclick="share.withWebApi(event)"
+          >
+            Compartilhar
+            <i class="icon nes-icon heart is-medium"></i>
+          </button>
+
           <a
             href="{{event.url}}"
             target="_blank"
@@ -198,5 +213,6 @@
     </footer>
 
     <script src="/js/dark-mode.js"></script>
+    <script src="/js/need-js.js"></script>
   </body>
 </html>
