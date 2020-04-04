@@ -41,7 +41,7 @@ export default [
     logo: "/img/caelum.png",
     alt: "Logo da Caelum",
     content:
-      "Apostila de FrontEnd, UX, Python, Java e C# de graça para você baixar e estudar de forma feliz!",
+      "Apostilas de FrontEnd, UX, Python, Java e C# de graça para você baixar e estudar de forma feliz!",
     url: "https://www.caelum.com.br/apostilas",
     className: "-radius"
   },
