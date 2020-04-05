@@ -316,5 +316,14 @@ export default [
       "Durante o período da quarentena, Vamos liberar nosso treinamento de forma 100% Gratuita com conteúdo focado em Cloud e Devops. E nosso desafio principal será subir uma ...",
     url: "https://treinacloud.com.br/cloudcamp/quarentena/",
     className: "-radius"
-  }
+  },
+  {
+    title: "#js-docs",
+    logo: "/img/js-docs.png",
+    alt: "Logo JsDocs",
+    content:
+      "Projeto com o objetivo de documentar o JavaScript com um abordagem simples e feliz e tudo em um PT-BR",
+    url: "https://javascript-docs.netlify.com/",
+    className: "-radius"
+  },
 ];
