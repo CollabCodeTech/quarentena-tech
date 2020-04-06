@@ -332,7 +332,8 @@ export default [
     alt: "Logo Oracle",
     content:
       "A Oracle ofereceu vários cursos gratuitos FREE durante 45 dias da quarentena",
-    url: "https://javascript-docs.netlify.com/",
+    url:
+      "https://www.oracle.com/corporate/blog/free-certifications-oracle-oci-autonomous-033020.html",
     className: "-radius",
   },
 ];
