@@ -336,4 +336,14 @@ export default [
       "https://www.oracle.com/corporate/blog/free-certifications-oracle-oci-autonomous-033020.html",
     className: "-radius",
   },
+  {
+    title: "#AmazonTrabalhoRemoto",
+    logo: "/img/amazon.png",
+    alt: "Logo Amazon",
+    content:
+      "Amazon liberou vários e-books gratuitos sobre trabalho remoto em português e inglês",
+    url:
+      "https://www.amazon.com.br/s?k=Home+Office&i=digital-text&language=en_US&__mk_pt_BR=ÅMÅŽÕÑ&linkCode=sl2&linkId=96a5187cf279f852803250dbfc9963ee&tag=xcvdblgwzt-20&ref=nb_sb_noss_2",
+    className: "-radius",
+  },
 ];
