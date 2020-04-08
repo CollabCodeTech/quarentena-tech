@@ -318,6 +318,15 @@ export default [
     className: "-radius"
   },
   {
+    title: "#QuarentenaHacker",
+    logo: "/img/quarentenahacker.png",
+    alt: "Logo Quarentena Hacker",
+    content:
+      "Todo mundo ficando louco em casa sem saber o que fazer, então vamos aproveitar este tempo para completar um desafio! A ideia é criar uma ferramenta para automatizar algum processo relacionado a infosec, por exemplo, enumeração de sistemas, bruteforce em logins, scan de vulnerabilidades e por ai vai.",
+    url: "https://github.com/fguisso/quarentena-sec-tools",
+    className: "-radius"
+  },
+  {
     title: "#js-docs",
     logo: "/img/js-docs.png",
     alt: "Logo JsDocs",
