@@ -327,6 +327,15 @@ export default [
     className: "-radius"
   },
   {
+    title: "#HackOnline",
+    logo: "/img/hackonline.png",
+    alt: "Logo Hack Online",
+    content:
+      "A crise do Covid-19 está afetando profundamente as Micro e Pequenas Empresas do Rio Grande do Norte e do país como um todo. Essas empresas são fonte de renda de muitas famílias e têm um papel fundamental na economia do país. Não podemos abandoná-las! E você pode fazer a diferença para muitos empreendedores através de um conteúdo que traga orientações, dicas e um alívio nesse momento tão crítico.",
+    url: "https://sebraehack.blogspot.com/",
+    className: "-radius"
+  },
+  {
     title: "#js-docs",
     logo: "/img/js-docs.png",
     alt: "Logo JsDocs",
