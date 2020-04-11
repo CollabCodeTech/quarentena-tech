@@ -48,6 +48,7 @@
     <link rel="stylesheet" href="/css/components/heart-tc.css" />
     <link rel="stylesheet" href="/css/components/discord-tc.css" />
     <link rel="stylesheet" href="/css/components/button-social.css" />
+    <link rel="stylesheet" href="/css/components/tag-tc.css" />
     <link rel="stylesheet" href="/css/containers/header-tc.css" />
     <link rel="stylesheet" href="/css/containers/menu-tc.css" />
     <link rel="stylesheet" href="/css/containers/wrapper-category.css" />
@@ -99,32 +100,22 @@
     </section>
 
     <nav id="menu-tc" class="menu-tc">
-      <i class="nes-icon close is-large"></i>
-
       <label id="dark-mode" class="mode need-js">
         <input type="checkbox" class="nes-checkbox" />
         <span>Dark</span>
       </label>
+    
+      <i class="nes-icon close is-large"></i>
 
       <section class="wrapper-category">
         <h3 class="title">Categorias</h3>
 
-        <button data-category="course" type="button" class="nes-btn is-success category-tc">
+        {% for categorie in categories %}
+        <button data-category="{{categorie.name}}" type="button" class="nes-btn category-tc {{categorie.className}}">
           <i class="nes-icon is-large star is-transparent icon"></i>
-          Cursos
+          {{categorie.name}}
         </button>
-        <button data-category="twitch" type="button" class="nes-btn is-success category-tc -twitch">
-          <i class="nes-icon is-large star is-transparent icon"></i>
-          Twitch
-        </button>
-        <button data-category="youtube" type="button" class="nes-btn is-error category-tc">
-          <i class="nes-icon is-large star is-transparent icon"></i>
-          YouTube
-        </button>
-        <button data-category="community" type="button" class="nes-btn is-primary category-tc">
-          <i class="nes-icon is-large star is-transparent icon"></i>
-          Comunidade
-        </button>
+        {% endfor %}
 
         <button type="button" class="nes-btn category-tc -call-to-action">
           Filtrar
@@ -138,6 +129,13 @@
       <section class="wrapper-card-tc">
         {% for event in events %}
         <article class="card-tc -active nes-container is-rounded {{event.className}}" data-category="{{event.categories}}">
+          {% for categorie in categories %}
+          {% if categorie.name === event.categories.toString() %}
+          <a href="#" class="tag-tc nes-badge">
+            <span class="is-dark {{categorie.className}}">{{event.categories}}</span>
+          </a>
+          {% endif %}
+          {% endfor %}
           <img class="logo" src="{{event.logo}}" alt="{{event.alt}}" />
 
           <h2 class="title">{{event.title}}</h2>

@@ -4,6 +4,7 @@ import nunjucks from "nunjucks";
 import minify from "express-minify";
 import compression from "compression";
 import events from "./data/events";
+import categories from "./data/categories";
 
 env.config();
 const app = express();
@@ -21,7 +22,13 @@ app.use(express.static("src/public"));
 app.use(express.json());
 
 app.get("/", (req, res) => {
-  res.render("index.html", { events });
+  res.render("index.html", {
+    events,
+    categories: categories.map((category) => ({
+      ...category,
+      name: category.name.toLowerCase(),
+    })),
+  });
 });
 
 const getByCategory = (category) =>

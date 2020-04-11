@@ -36,7 +36,7 @@ export default [
     content:
       "Apostilas de FrontEnd, UX, Python, Java e C# de graça para você baixar e estudar de forma feliz!",
     url: "https://www.caelum.com.br/apostilas",
-    categories: ["course"],
+    categories: ["cursos"],
     className: "-radius",
   },
   {
@@ -56,7 +56,7 @@ export default [
     content:
       "Cursos totalmente grátis de Java, Angular, Cordova e mais, com ninguém menos que a Loiane! ",
     url: "https://loiane.training",
-    categories: ["course"],
+    categories: ["cursos"],
     className: "-radius",
   },
   {
@@ -66,7 +66,7 @@ export default [
     content:
       " Cursos online e gratuitos com certificado topezera para você não ver o tempo passar!",
     url: "https://lumina.ufrgs.br/",
-    categories: ["course"],
+    categories: ["cursos"],
     className: "",
   },
   {
@@ -77,7 +77,7 @@ export default [
       "Eduardo Pires é desenvolvedor, arquiteto, instrutor, palestrante, pai do Enzo e fundador do desenvolvedor.io que tem uns curso free e feliz",
     url:
       "https://desenvolvedor.io/curso-online-fundamentos-de-arquitetura-de-software",
-    categories: ["course"],
+    categories: ["cursos"],
     className: "-radius",
   },
   {
@@ -88,7 +88,7 @@ export default [
       "Aulas 100% ao vivo de Git e GitHub do Guanabara, é de graça e feliz!",
     url:
       "https://www.youtube.com/playlist?list=PLHz_AreHm4dm7ZULPAmadvNhH6vk9oNZA",
-    categories: ["course"],
+    categories: ["cursos"],
     className: "-radius",
   },
   {
@@ -98,7 +98,7 @@ export default [
     content:
       "A Primeira versão do curso de Pentest Profissional não será mais comercializada, então queremos tornar público o acesso das aulas para todos que tem paixão por segurança ofensiva poder usufruir da melhor e mais aceita metodologia adotada na America Latina.",
     url: "https://desecsecurity.com/curso/curso-pentest-gratuito",
-    categories: ["course"],
+    categories: ["cursos"],
     className: "-radius",
   },
   {
@@ -108,7 +108,7 @@ export default [
     content:
       "Varrendo a internet, encontramos diversos treinamentos sobre Node.js e Javascript. Mas na maioria das vezes estes conteúdos são focados na mesma coisa! A grande maioria fala sobre a Stack MEAN (MongoDB, Express.js, Angular.js e Node.js), programação para Web ou apenas...",
     url: "https://treinamento.nodebr.org",
-    categories: ["course"],
+    categories: ["cursos"],
     className: "-radius",
   },
   {
@@ -129,7 +129,7 @@ export default [
     content:
       "Neste curso você vai aprender os básicos de React e evoluir passo-a-passo até conseguir publicar sua primeira aplicação em React.js",
     url: "https://www.aprendareact.com.br/cursos/iniciando-em-react",
-    categories: ["course"],
+    categories: ["cursos"],
     className: "",
   },
   {
@@ -139,7 +139,7 @@ export default [
     content:
       "Neste curso de CSS conheça como importar e incorporá-lo no HTML. Além disso você aprenderá a escrever seus primeiros códigos e conhecer as principais propriedades e atributos",
     url: "https://www.devmedia.com.br/curso/curso-css-gratuito/2215",
-    categories: ["course"],
+    categories: ["cursos"],
     className: "",
   },
   {
@@ -158,7 +158,7 @@ export default [
     content:
       "Cursos 100% online e gratuitos para você entrar com o pé direito nas tecnologias mais desejadas do mercado.",
     url: "https://rocketseat.com.br/starter",
-    categories: ["course"],
+    categories: ["cursos"],
     className: "-radius",
   },
   {
@@ -168,7 +168,7 @@ export default [
     content:
       "Node.js é um interpretador de código JavaScript que funciona do lado do servidor. Seu objetivo é ajudar programadores na criação de aplicações de alta escalabilidade...",
     url: "https://jornadadodev.com.br/cursos/curso-de-nodejs",
-    categories: ["course"],
+    categories: ["cursos"],
     className: "-radius",
   },
   {
@@ -178,7 +178,7 @@ export default [
     content:
       "Começe a aprender de graça com o André Baltieri fundador do balta.io",
     url: "https://balta.io/comece-de-graca",
-    categories: ["course"],
+    categories: ["cursos"],
     className: "-radius",
   },
   {
@@ -188,7 +188,7 @@ export default [
     content:
       "Esse não é de graça. Mas você pode dividir sua assinatura com uma galera e ganhar até 50% de desconto na assinatura do devmedia",
     url: "https://www.devmedia.com.br/marketing/assinatura-grupo/",
-    categories: ["course"],
+    categories: ["cursos"],
     className: "",
   },
   {
@@ -198,7 +198,7 @@ export default [
     content:
       "Liberamos 8 cursos FREE para você passar por essa quarentena se preparando para voltar a 500%",
     url: "https://pages.upinside.com.br/ficaemcasa",
-    categories: ["course"],
+    categories: ["cursos"],
     className: "-radius",
   },
   {
@@ -208,7 +208,7 @@ export default [
     content:
       "Muito conteúdo de #Flutter para todos os níveis e gostos, 100% free! Pode tambem entrar nos nossos canais Discord, Telegram e fórum pra sanar duvidas e aprender ajudando alguém.",
     url: "https://linktr.ee/Flutterando",
-    categories: ["community"],
+    categories: ["comunidade"],
     className: "-radius",
   },
   {
@@ -218,7 +218,7 @@ export default [
     content:
       "Uma plataforma gratuita para impulsionar o seu crescimento profissional",
     url: "https://impulso.network",
-    categories: ["community"],
+    categories: ["comunidade"],
     className: "-radius",
   },
   {
@@ -228,7 +228,7 @@ export default [
     content:
       "Todos os treinamentos gratuitos do Erick Wendel agora em um só lugar para você se empenhar nessa quarentena",
     url: "https://cursos.erickwendel.com.br/",
-    categories: ["course"],
+    categories: ["cursos"],
     className: "-radius",
   },
   {
@@ -238,7 +238,7 @@ export default [
     content:
       "Em parceria com a Impulso Network, a DIO oferece 10.000 bolsas em curso de tecnologia para incentivar o protagonismo feminino na área",
     url: "https://digitalinnovation.one/bootcamps/code-fullstack-girl/",
-    categories: ["course"],
+    categories: ["cursos"],
     className: "-radius",
   },
   {
@@ -248,7 +248,7 @@ export default [
     content:
       "Diversos cursos de empreendedorismo, carreira e tecnologia de graça",
     url: "https://querodobra.com.br/",
-    categories: ["course"],
+    categories: ["cursos"],
     className: "-radius",
   },
   {
@@ -258,7 +258,7 @@ export default [
     content:
       "Mais de 7.000 cursos gratuitos no Pluralsight, uma das maiores plataformas de cursos de tecnologia do mundo",
     url: "https://www.pluralsight.com/offer/2020/free-april-month",
-    categories: ["course"],
+    categories: ["cursos"],
     finishDate: "05/01/2020",
     className: "-radius",
   },
@@ -269,7 +269,7 @@ export default [
     content:
       "Durante o período da quarentena, Vamos liberar nosso treinamento de forma 100% Gratuita com conteúdo focado em Cloud e Devops. E nosso desafio principal será subir uma ...",
     url: "https://treinacloud.com.br/cloudcamp/quarentena/",
-    categories: ["course"],
+    categories: ["cursos"],
     className: "-radius",
   },
 ];
