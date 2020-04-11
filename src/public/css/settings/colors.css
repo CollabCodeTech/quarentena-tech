@@ -2,11 +2,15 @@
   --color-base-light: white;
 
   --color-gueio-first: #f25a70;
-  --color-gueio-first-light: rgba(242, 90, 112, 0.1);
+  --color-gueio-first-light: rgba(242, 90, 112, 0.9);
   --color-gueio-second: #eae6da;
   --color-gueio-third: #3a4042;
 
   --color-status-first: #7c5e99;
+
+  --color-twitch: #9147ff;
+  --color-twitch-light: rgb(145, 71, 255, 0.3);
+  --color-twitch-boder: #5b1eb6;
 
   --color-nes-dark: #212529;
 }

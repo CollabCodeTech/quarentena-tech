@@ -34,7 +34,7 @@
       href="/favicon/favicon-16x16.png"
     />
 
-    <link rel="stylesheet" href="/css/components/need-js" />
+    <link rel="stylesheet" href="/css/components/need-js.css" />
     <link rel="stylesheet" href="/css/settings/colors.css" />
     <link rel="stylesheet" href="/css/settings/sizes.css" />
     <link rel="stylesheet" href="/css/settings/gaps.css" />
@@ -49,6 +49,8 @@
     <link rel="stylesheet" href="/css/components/discord-tc.css" />
     <link rel="stylesheet" href="/css/components/button-social.css" />
     <link rel="stylesheet" href="/css/containers/header-tc.css" />
+    <link rel="stylesheet" href="/css/containers/menu-tc.css" />
+    <link rel="stylesheet" href="/css/containers/wrapper-category.css" />
     <link rel="stylesheet" href="/css/containers/main-tc.css" />
     <link rel="stylesheet" href="/css/containers/wrapper-social.css" />
     <link rel="stylesheet" href="/css/containers/banner-tc.css" />
@@ -67,6 +69,7 @@
     <meta property="og:type" content="website" />
     <meta property="og:image" content="https://quarentena.tech/img/seo.jpg" />
   </head>
+
   <body id="page" class="nes">
     <header class="header-tc nes-container is-rounded">
       <figure class="logo-tc">
@@ -74,10 +77,10 @@
         <figcaption class="text">#Quarentena.Tech</figcaption>
       </figure>
 
-      <label id="dark-mode" class="mode need-js">
-        <input type="checkbox" class="nes-checkbox" />
-        <span>Dark</span>
-      </label>
+      <a class="menu need-js" href="#menu-tc">
+        <i class="nes-icon is-large heart icon"></i>
+        <span class="content">Menu</span>
+      </a>
     </header>
 
     <section class="banner-tc nes-container with-title is-centered">
@@ -95,45 +98,46 @@
       <i class="heart-tc nes-icon is-large heart"></i>
     </section>
 
-    <main class="main-tc _container">
-      <section class="section-video">
-        <nav class="wrapper-social icon-list">
-          <a
-            href="https://twitch.tv/collabdode"
-            target="_blank"
-            rel="noreferrer noopener"
-          >
-            <i class="social-media nes-icon twitch is-large"></i>
-          </a>
-          <a
-            href="https://bit.ly/discord-collabcode"
-            target="_blank"
-            rel="noreferrer noopener"
-          >
-            <i class="social-media nes-icon discord is-large"></i>
-          </a>
-          <a
-            href="https://twitter.com/collabcodetech"
-            target="_blank"
-            rel="noreferrer noopener"
-          >
-            <i class="social-media nes-icon twitter is-large"></i>
-          </a>
-          <a
-            href="https://github.com/collabcodetech/quarentena-tech"
-            target="_blank"
-            rel="noreferrer noopener"
-          >
-            <i class="social-media nes-icon github is-large"></i>
-          </a>
-        </nav>
-      </section>
+    <nav id="menu-tc" class="menu-tc">
+      <i class="nes-icon close is-large"></i>
 
+      <label id="dark-mode" class="mode need-js">
+        <input type="checkbox" class="nes-checkbox" />
+        <span>Dark</span>
+      </label>
+
+      <section class="wrapper-category">
+        <h3 class="title">Categorias</h3>
+
+        <button data-category="course" type="button" class="nes-btn is-success category-tc">
+          <i class="nes-icon is-large star is-transparent icon"></i>
+          Cursos
+        </button>
+        <button data-category="twitch" type="button" class="nes-btn is-success category-tc -twitch">
+          <i class="nes-icon is-large star is-transparent icon"></i>
+          Twitch
+        </button>
+        <button data-category="youtube" type="button" class="nes-btn is-error category-tc">
+          <i class="nes-icon is-large star is-transparent icon"></i>
+          YouTube
+        </button>
+        <button data-category="community" type="button" class="nes-btn is-primary category-tc">
+          <i class="nes-icon is-large star is-transparent icon"></i>
+          Comunidade
+        </button>
+
+        <button type="button" class="nes-btn category-tc -call-to-action">
+          Filtrar
+        </button
+      </section>
+    </nav>
+
+    <main class="main-tc _container">
       <script src="/js/share-social.js"></script>
 
       <section class="wrapper-card-tc">
         {% for event in events %}
-        <article class="card-tc nes-container is-rounded {{event.className}}">
+        <article class="card-tc -active nes-container is-rounded {{event.className}}" data-category="{{event.categories}}">
           <img class="logo" src="{{event.logo}}" alt="{{event.alt}}" />
 
           <h2 class="title">{{event.title}}</h2>
@@ -212,6 +216,11 @@
       </ul>
     </footer>
 
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=Array.from,Promise,Symbol,Object.setPrototypeOf,Object.getOwnPropertySymbols"></script>
+    <script src="https://cdn.jsdelivr.net/npm/superagent"></script>
+
+    <script src="/js/global.js"></script>
+    <script src="/js/menu-tc.js"></script>
     <script src="/js/dark-mode.js"></script>
     <script src="/js/need-js.js"></script>
   </body>

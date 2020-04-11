@@ -4,6 +4,7 @@ body {
 }
 
 body {
+  padding-top: calc(var(--size-height-header) + var(--gap-big));
   background-color: var(--color-gueio-second);
   font-family: "Press Start 2P", cursive;
 }

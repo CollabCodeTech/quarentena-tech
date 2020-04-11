@@ -4,13 +4,16 @@
 }
 
 #page .card-tc {
-  display: flex;
+  display: none;
   flex-direction: column;
   align-items: center;
   text-align: center;
   max-width: 430px;
   margin-bottom: var(--gap-medium);
   transition: transform 100ms linear;
+}
+#page .card-tc.-active {
+  display: flex;
 }
 
 #page .card-tc:not(.is-dark) {
