@@ -4,13 +4,18 @@
 }
 
 #page .card-tc {
-  display: flex;
+  display: none;
+  position: relative;
   flex-direction: column;
   align-items: center;
   text-align: center;
   max-width: 430px;
   margin-bottom: var(--gap-medium);
   transition: transform 100ms linear;
+  padding-top: 40px;
+}
+#page .card-tc.-active {
+  display: flex;
 }
 
 #page .card-tc:not(.is-dark) {
@@ -19,6 +24,18 @@
 
 #page .card-tc:hover {
   transform: scale(1.02);
+}
+
+.card-tc > .tag-tc {
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translateX(-50%);
+}
+
+.card-tc.is-dark > .tag-tc {
+  top: 10px;
+  right: 10px;
 }
 
 .card-tc > .logo {

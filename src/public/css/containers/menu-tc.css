@@ -1,0 +1,39 @@
+.menu-tc {
+  --padding: 5px;
+  --height-close: 62px;
+
+  position: fixed;
+  box-sizing: border-box;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  height: 100vh;
+  width: 100%;
+  background-color: var(--color-gueio-first-light);
+  padding: var(--padding);
+  overflow: hidden;
+  opacity: 0;
+  text-align: right;
+
+  transform: translateY(-100%);
+  transition: transform 200ms linear, opacity 200ms linear;
+}
+
+.menu-tc.-active {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.menu-tc > .close {
+  cursor: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAzElEQVRYR+2X0Q6AIAhF5f8/2jYXZkwEjNSVvVUjDpcrGgT7FUkI2D9xRfQETwNIiWO85wfINfQUEyxBG2ArsLwC0jioGt5zFcwF4OYDPi/mBYKm4t0U8ATgRm3ThFoAqkhNgWkA0jJLvaOVSs7j3qMnSgXWBMiWPXe94QqMBMBc1VZIvaTu5u5pQewq0EqNZvIEMCmxAawK0DNkay9QmfFNAJUXfgGgUkLaE7j/h8fnASkxHTz0DGIBMCnBeeM7AArpUd3mz2x3C7wADglA8BcWMZhZAAAAAElFTkSuQmCC)
+      14 0,
+    pointer;
+  right: calc(var(--padding) * 2);
+}
+
+.menu-tc > .mode {
+  font-size: 1.2em;
+  position: absolute;
+  left: calc(var(--padding) * 2);
+  top: calc(var(--height-close) / 2);
+}

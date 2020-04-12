@@ -1,0 +1,5 @@
+#page .tag-tc .-twitch {
+  background-color: var(--color-twitch);
+  box-shadow: 0 0.5em var(--color-twitch), 0 -0.5em var(--color-twitch),
+    0.5em 0 var(--color-twitch), -0.5em 0 var(--color-twitch);
+}

@@ -1,9 +1,20 @@
 #page .header-tc {
+  box-sizing: border-box;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
   display: flex;
+  justify-content: space-between;
   align-items: center;
-  position: relative;
-  height: 80px;
+  height: var(--size-height-header);
   margin-bottom: var(--gap-big);
+  box-shadow: 0 6px 6px var(--color-nes-dark);
+}
+
+#page .header-tc.is-dark {
+  top: -4px;
 }
 
 #page .header-tc:not(.is-dark) {
@@ -26,6 +37,31 @@
   width: 245px;
   word-wrap: break-word;
   line-height: 1.2;
+}
+
+.header-tc > .menu {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  text-decoration: none;
+  color: var(--color-nes-dark);
+}
+
+.header-tc.is-dark > .menu {
+  color: var(--color-base-light);
+}
+
+.header-tc .content {
+  margin-left: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 13px;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+}
+
+.header-tc .icon {
+  transform: scale(3.4) translate(0px, 1.5px);
 }
 
 .header-tc > .mode {

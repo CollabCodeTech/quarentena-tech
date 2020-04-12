@@ -1,17 +1,28 @@
 "use strict";
 
-(function(doc) {
-  const $input_dark_mode = doc.querySelector("#dark-mode > [type=checkbox]");
+(function (doc) {
+  const $dark_mode = doc.querySelector("#dark-mode");
+  const $input_dark_mode = $dark_mode.querySelector("[type=checkbox]");
   const $nes = doc.querySelectorAll("[class*=nes]");
 
   verifyDarkModeOnload();
 
-  $input_dark_mode.addEventListener("change", function() {
-    $nes.forEach(function($element) {
+  $input_dark_mode.addEventListener("change", function (event) {
+    event.stopPropagation();
+
+    $nes.forEach(function ($element) {
       $element.classList.toggle("is-dark");
     });
 
     updateDarkMode();
+  });
+
+  $dark_mode.addEventListener("click", function (event) {
+    event.stopPropagation();
+  });
+
+  $input_dark_mode.addEventListener("click", function (event) {
+    event.stopPropagation();
   });
 
   function verifyDarkModeOnload() {
@@ -28,7 +39,7 @@
 
   function setDarkMode() {
     $input_dark_mode.setAttribute("checked", true);
-    $nes.forEach(function($element) {
+    $nes.forEach(function ($element) {
       $element.classList.add("is-dark");
     });
   }
