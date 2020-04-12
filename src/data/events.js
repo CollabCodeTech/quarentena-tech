@@ -281,7 +281,7 @@ export default [
     url:
       "https://www.youtube.com/channel/UCjSFU-9JUt2ATyjomcsRgSQ?view_as=subscriber",
     categories: ["youtube"],
-    className: "",
+    className: "-radius",
   },
   {
     title: "@CodeShow",
@@ -291,7 +291,7 @@ export default [
       "compartilhamento experiências com foco no código e em tecnologias como Rust e python.",
     url: "https://www.youtube.com/user/brunovegan/",
     categories: ["youtube"],
-    className: "",
+    className: "-radius",
   },
   {
     title: "@DevPleno",
@@ -301,7 +301,7 @@ export default [
       "Dicas, sacadas e tutoriais para você tornar-se um profissional completo ou um devPleno",
     url: "https://www.youtube.com/channel/UC07JWf9A0B1scApbS1Te7Ww/about",
     categories: ["youtube"],
-    className: "",
+    className: "-radius",
   },
   {
     title: "@CódigoFonteTV",
@@ -311,7 +311,7 @@ export default [
       "Esse canal trata de programação de uma forma diferente e divertida, além de contar algumas experiências na área",
     url: "https://www.youtube.com/channel/UCFuIUoyHB12qpYa8Jpxoxow",
     categories: ["youtube"],
-    className: "",
+    className: "-radius",
   },
   {
     title: "@mango",
