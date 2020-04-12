@@ -34,6 +34,7 @@ app.get("/", (req, res) => {
 const getByCategory = (category) =>
   events.filter((item) => item.categories.includes(category));
 
+app.get("/api/things", (req, res) => res.json(events));
 app.get("/api/course", (req, res) => res.json(getByCategory("course")));
 app.get("/api/community", (req, res) => res.json(getByCategory("community")));
 app.get("/api/twitch", (req, res) => res.json(getByCategory("twitch")));

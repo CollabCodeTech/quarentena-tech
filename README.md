@@ -5,6 +5,19 @@
   <p align="center" style="font-weight:bold;font-size:25px;">#Quarentena Tech</p>
 </div>
 
+# API online
+
+Routes to GET method:
+
+```bash
+https://quarentena.tech/api/things
+https://quarentena.tech/api/twtich
+https://quarentena.tech/api/youtube
+https://quarentena.tech/api/course
+https://quarentena.tech/api/community
+```
+
+
 # Quarentena Tech
  > Nesse momento complicado que estamos passando, felizmente têm muitas pessoas, comunidades e empresas realizando pequenos eventos, 100% online e de graça pra galera. A comunidade da CollabCode criou esse site com o objetivo de juntar todas essas iniciativas maravilhosas que estão nos ajudando a passar por essa crise de uma forma mais feliz!
 
