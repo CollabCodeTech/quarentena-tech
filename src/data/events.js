@@ -267,7 +267,7 @@ export default [
     logo: "/img/cloudcamp.png",
     alt: "Logo CloudCamp",
     content:
-      "Durante o período da quarentena, Vamos liberar nosso treinamento de forma 100% Gratuita com conteúdo focado em Cloud e Devops. E nosso desafio principal será subir uma ...",
+      "Durante o período da quarentena, vamos liberar nosso treinamento de forma 100% Gratuita com conteúdo focado em Cloud e Devops. E nosso desafio principal será subir uma ...",
     url: "https://treinacloud.com.br/cloudcamp/quarentena/",
     categories: ["cursos"],
     className: "-radius",
@@ -304,7 +304,7 @@ export default [
     className: "",
   },
   {
-    title: "#CódigoFonteTV",
+    title: "@CódigoFonteTV",
     logo: "/img/codigofontetv.jpg",
     alt: "Logo do Codigo Fonte TV",
     content:
@@ -312,5 +312,15 @@ export default [
     url: "https://www.youtube.com/channel/UCFuIUoyHB12qpYa8Jpxoxow",
     categories: ["youtube"],
     className: "",
+  },
+  {
+    title: "@mango",
+    logo: "/img/mango.jpg",
+    alt: "Logo Mango",
+    content:
+      "Cursos Avançados de TDD, Node, Clean Architecture, Git, Docker e Design Patterns em português e grátis",
+    url: "https://www.youtube.com/mango-developer",
+    categories: ["youtube"],
+    className: "-radius",
   },
 ];
