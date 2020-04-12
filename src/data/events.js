@@ -282,4 +282,14 @@ export default [
     categories: ["youtube"],
     className: "-radius",
   },
+  {
+    title: "@devgiordane",
+    logo: "/img/devgiordane.jpg",
+    alt: "Dev_ Giordane",
+    content:
+      "Vídeos rápidos com dicas de CSS e JavaScript, lives criando pequenos projetos para engajar a comunidade que está iniciando com programação.",
+    url: "https://www.youtube.com/GiordaneOliveira",
+    categories: ["youtube"],
+    className: "-radius",
+  },
 ];
