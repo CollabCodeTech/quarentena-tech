@@ -8,7 +8,7 @@ import categories from "./data/categories";
 
 env.config();
 const app = express();
-const { PORT } = process.env;
+const PORT = process.env.PORT || 3000;
 
 nunjucks.configure("src/views", {
   autoescape: true,
