@@ -272,4 +272,45 @@ export default [
     categories: ["cursos"],
     className: "-radius",
   },
+  {
+    title: "@JeaanCa",
+    logo: "/img/jeaanca.jpg",
+    alt: "Logo Foto do Jean",
+    content:
+      "Lives e vídeos com dicas de linux e desenvolvimento de aplicações web, games. ",
+    url:
+      "https://www.youtube.com/channel/UCjSFU-9JUt2ATyjomcsRgSQ?view_as=subscriber",
+    categories: ["youtube"],
+    className: "",
+  },
+  {
+    title: "@CodeShow",
+    logo: "/img/codeshow.jpg",
+    alt: "Logo do Codeshow",
+    content:
+      "compartilhamento experiências com foco no código e em tecnologias como Rust e python.",
+    url: "https://www.youtube.com/user/brunovegan/",
+    categories: ["youtube"],
+    className: "",
+  },
+  {
+    title: "@DevPleno",
+    logo: "/img/devpleno.jpg",
+    alt: "Logo do DevPleno",
+    content:
+      "Dicas, sacadas e tutoriais para você tornar-se um profissional completo ou um devPleno",
+    url: "https://www.youtube.com/channel/UC07JWf9A0B1scApbS1Te7Ww/about",
+    categories: ["youtube"],
+    className: "",
+  },
+  {
+    title: "#CódigoFonteTV",
+    logo: "/img/codigofontetv.jpg",
+    alt: "Logo do Codigo Fonte TV",
+    content:
+      "Esse canal trata de programação de uma forma diferente e divertida, além de contar algumas experiências na área",
+    url: "https://www.youtube.com/channel/UCFuIUoyHB12qpYa8Jpxoxow",
+    categories: ["youtube"],
+    className: "",
+  },
 ];
