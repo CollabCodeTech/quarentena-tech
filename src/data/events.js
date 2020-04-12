@@ -273,12 +273,13 @@ export default [
     className: "-radius",
   },
   {
-    title: "#mango",
+    title: "@mango",
     logo: "/img/mango.jpg",
     alt: "Logo Mango",
     content:
       "Cursos Avançados de TDD, Node, Clean Architecture, Git, Docker e Design Patterns em português e grátis",
     url: "https://www.youtube.com/mango-developer",
-    className: "-radius"
+    categories: ["youtube"],
+    className: "-radius",
   },
 ];
