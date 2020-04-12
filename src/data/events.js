@@ -267,7 +267,7 @@ export default [
     logo: "/img/cloudcamp.png",
     alt: "Logo CloudCamp",
     content:
-      "Durante o período da quarentena, Vamos liberar nosso treinamento de forma 100% Gratuita com conteúdo focado em Cloud e Devops. E nosso desafio principal será subir uma ...",
+      "Durante o período da quarentena, vamos liberar nosso treinamento de forma 100% Gratuita com conteúdo focado em Cloud e Devops. E nosso desafio principal será subir uma ...",
     url: "https://treinacloud.com.br/cloudcamp/quarentena/",
     categories: ["cursos"],
     className: "-radius",
