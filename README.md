@@ -9,13 +9,12 @@
 
 Routes to GET method:
 
-```bash
-https://quarentena.tech/api/things
-https://quarentena.tech/api/twitch
-https://quarentena.tech/api/youtube
-https://quarentena.tech/api/course
-https://quarentena.tech/api/community
-```
+- [https://quarentena.tech/api/things](https://quarentena.tech/api/things)
+- [https://quarentena.tech/api/twitch](https://quarentena.tech/api/twitch)
+- [https://quarentena.tech/api/youtube](https://quarentena.tech/api/youtube)
+- [https://quarentena.tech/api/course](https://quarentena.tech/api/course)
+- [https://quarentena.tech/api/community](https://quarentena.tech/api/community)
+
 
 
 # Quarentena Tech
