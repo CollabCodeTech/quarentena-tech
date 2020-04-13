@@ -338,7 +338,7 @@ export default [
     logo: "/img/linuxtips.jpg",
     alt: "LINUXtips",
     content:
-        "LINUXtips tem como objetivo trazer conteúdo e treinamentos de qualidade em portugues sobre docker, containers, devops, linux e muito mais.",
+        "LINUXtips tem como objetivo trazer conteúdo e treinamentos de qualidade em português sobre docker, containers, devops, linux e muito mais.",
     url: "https://www.youtube.com/user/linuxtipscanal",
     categories: ["youtube"],
     className: "-radius",
