@@ -333,4 +333,14 @@ export default [
     categories: ["youtube"],
     className: "-radius",
   },
+  {
+    title: "@ProfessorKennyMendes",
+    logo: "/img/kenny.jpg",
+    alt: "Professor Kenny",
+    content:
+      "Curso de Inglês para iniciantes até o nível intermediário",
+    url: "https://www.youtube.com/user/ProfessorKennyMendes",
+    categories: ["youtube"],
+    className: "-radius",
+  },
 ];
