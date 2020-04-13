@@ -5,18 +5,6 @@
   <p align="center" style="font-weight:bold;font-size:25px;">#Quarentena Tech</p>
 </div>
 
-# API online
-
-Routes to GET method:
-
-- [https://quarentena.tech/api/things](https://quarentena.tech/api/things)
-- [https://quarentena.tech/api/twitch](https://quarentena.tech/api/twitch)
-- [https://quarentena.tech/api/youtube](https://quarentena.tech/api/youtube)
-- [https://quarentena.tech/api/course](https://quarentena.tech/api/course)
-- [https://quarentena.tech/api/community](https://quarentena.tech/api/community)
-
-
-
 # Quarentena Tech
  > Nesse momento complicado que estamos passando, felizmente têm muitas pessoas, comunidades e empresas realizando pequenos eventos, 100% online e de graça pra galera. A comunidade da CollabCode criou esse site com o objetivo de juntar todas essas iniciativas maravilhosas que estão nos ajudando a passar por essa crise de uma forma mais feliz!
 
@@ -28,9 +16,20 @@ Routes to GET method:
   <a href="#license" alt="License MIT"><img src="https://img.shields.io/github/license/CollabCodeTech/quarentena-tech?style=flat&color=2c9ceb" /></a>
 </p>
 
+<p align="center">
+  <a href="https://insomnia.rest/run/?label=Quarentena.tech&uri=https://raw.githubusercontent.com/CollabCodeTech/quarentena-tech/master/.github/documentation_2020-04-11.json" target="_blank"><img src="https://insomnia.rest/images/run.svg" alt="Open Quarentena.tech on Insomnia"></a>
+</p>
+
+<p align="center">
+  <a href="#getting-started">Getting Started</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#how-to-use">How to use</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#contributing">Contributing</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#license">License</a>
+</p>
+
 [![Preview #Quarentena Tech](.github/preview.gif)](https://quarentena.tech)
 
-## Get Started
+## Getting Started
 
 ### Clone
 
@@ -64,6 +63,22 @@ $ nodemon src/app.js
 Serve in http://localhost:8084
 Shotdown: ctrl + c
 ```
+
+## How To Use
+
+> Routes to GET method:
+
+```bash
+https://quarentena.tech/api/things
+https://quarentena.tech/api/twitch
+https://quarentena.tech/api/youtube
+https://quarentena.tech/api/course
+https://quarentena.tech/api/community
+```
+
+<p align="center">
+  <a href="https://insomnia.rest/run/?label=Quarentena.tech&uri=https://raw.githubusercontent.com/CollabCodeTech/quarentena-tech/master/.github/documentation_2020-04-11.json" target="_blank"><img src="https://insomnia.rest/images/run.svg" alt="Open Quarentena.tech on Insomnia"></a>
+</p>
 
 ## Contributing
 
