@@ -333,4 +333,13 @@ export default [
     categories: ["youtube"],
     className: "-radius",
   },
+  {
+    title: "@algaworks",
+    logo: "/img/algaworks.png",
+    alt: "Alga Works em combate ao CONVID-19",
+    content: "Cursos de java e responsividade web gratuitos ou por uma doação de apenas R$100 para o combate ao COVID-19.",
+    url: "https://cafe.algaworks.com/c19/",
+    categories: ["cursos"],
+    className: "-radius"
+  },
 ];
