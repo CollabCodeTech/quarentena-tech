@@ -333,4 +333,14 @@ export default [
     categories: ["youtube"],
     className: "-radius",
   },
+  {
+    title: "@onebitcode",
+    logo: "/img/one_bitcode.png",
+    alt: "One Bit Code",
+    content:
+      "Evento 100% online e gratuito de 13 a 19 de Abril",
+    url: "https://super.onebitcode.com/aula1",
+    categories: ["cursos"],
+    className: "-radius",
+  },
 ];
