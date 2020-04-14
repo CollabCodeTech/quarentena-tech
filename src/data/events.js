@@ -333,4 +333,14 @@ export default [
     categories: ["youtube"],
     className: "-radius",
   },
+  {
+    title: "@QuarentenaDados",
+    logo: "/img/alura.jpg",
+    alt: "Logo da Alura",
+    content:
+      "Semana de aulas gratuitas de Data Science com Guilherme Silveira. Inscrições até 19 de abril",
+    url: "https://www.alura.com.br/quarentenadados",
+    categories: ["cursos"],
+    className: "-radius",
+  }
 ];
