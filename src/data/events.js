@@ -333,4 +333,13 @@ export default [
     categories: ["youtube"],
     className: "-radius",
   },
+  {
+    title: "@UniversoProgramado",
+    logo: "/img/universo-programado.jpg",
+    alt: "Logo do Universo Programado",
+    content: "Canal com vários videos sobre inteligência artificial apresentados por um cara e uma robô muito simpática",
+    url: "https://www.youtube.com/channel/UCf_kacKyoRRUP0nM3obzFbg/featured",
+    categories: ["youtube"],
+    className: "-radius"
+  }
 ];
