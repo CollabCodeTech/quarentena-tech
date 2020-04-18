@@ -1,18 +1,18 @@
 export default [
   {
-    name: "Cursos",
-    className: "is-success",
+    name: 'Cursos',
+    className: 'is-success',
   },
   {
-    name: "Twitch",
-    className: "-twitch",
+    name: 'Twitch',
+    className: '-twitch',
   },
   {
-    name: "YouTube",
-    className: "is-error",
+    name: 'YouTube',
+    className: 'is-error',
   },
   {
-    name: "Comunidade",
-    className: "is-primary",
+    name: 'Comunidade',
+    className: 'is-primary',
   },
 ];
