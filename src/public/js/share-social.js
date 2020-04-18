@@ -1,9 +1,9 @@
-"use strict";
+'use strict';
 
-const share = (function() {
-  const $canonical = document.querySelector("link[rel=canonical]");
+const share = (function () {
+  const $canonical = document.querySelector('link[rel=canonical]');
   const url = $canonical
-    ? $canonical.getAttribute("href")
+    ? $canonical.getAttribute('href')
     : window.location.href;
 
   function facebook() {
@@ -15,7 +15,7 @@ const share = (function() {
 
     window.open(
       `http://www.facebook.com/sharer.php?u=${url}`,
-      "Compartilhar no facebook",
+      'Compartilhar no facebook',
       `toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=yes, resizable=no, copyhistory=no, width=${width}, height=${height}, top=${top}, left=${left}`
     );
   }
@@ -24,15 +24,15 @@ const share = (function() {
     if (navigator && navigator.share) {
       navigator
         .share({
-          title: "Quarentena Tech",
+          title: 'Quarentena Tech',
           text:
-            "Site com uma lista de conteúdos gratuitos e online sobre programação",
-          url
+            'Site com uma lista de conteúdos gratuitos e online sobre programação',
+          url,
         })
-        .then(function() {
-          console.log("Funcionou!!");
+        .then(function () {
+          console.log('Funcionou!!');
         })
-        .catch(function(err) {
+        .catch(function (err) {
           console.error(err);
         });
     } else {
@@ -42,6 +42,6 @@ const share = (function() {
   }
 
   return {
-    withWebApi
+    withWebApi,
   };
 })();
