@@ -1,8 +1,8 @@
 export default [
   {
-    title: '@MarcoBrunoDev',
-    logo: '/img/collabcode.svg',
-    alt: 'Logo da CollabCode com o mascote Gueio',
+    title: "@MarcoBrunoDev",
+    logo: "/img/collabcode.png",
+    alt: "Logo da CollabCode com o mascote Gueio",
     content:
       'Canal focado em troca de conhecimento, tem aulas ao vivo e projetos reais também sendo feito ao vivo, você pode colar e trocar ideia pelo chat.',
     url: 'https://twitch.tv/marcobrunodev',
