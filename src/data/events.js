@@ -334,6 +334,15 @@ export default [
     className: '-radius',
   },
   {
+    title: "@UniversoProgramado",
+    logo: "/img/universo-programado.jpg",
+    alt: "Logo do Universo Programado",
+    content: "Canal com vários videos sobre inteligência artificial apresentados por um cara e uma robô muito simpática",
+    url: "https://www.youtube.com/channel/UCf_kacKyoRRUP0nM3obzFbg/featured",
+    categories: ["youtube"],
+    className: "-radius"
+  },
+  {
     title: "@algaworks",
     logo: "/img/algaworks.png",
     alt: "Alga Works em combate ao CONVID-19",
@@ -343,12 +352,13 @@ export default [
     className: "-radius"
   },
   {
-    title: "@UniversoProgramado",
-    logo: "/img/universo-programado.jpg",
-    alt: "Logo do Universo Programado",
-    content: "Canal com vários videos sobre inteligência artificial apresentados por um cara e uma robô muito simpática",
-    url: "https://www.youtube.com/channel/UCf_kacKyoRRUP0nM3obzFbg/featured",
-    categories: ["youtube"],
-    className: "-radius"
+    title: "@onebitcode",
+    logo: "/img/one_bitcode.png",
+    alt: "One Bit Code",
+    content:
+      "Evento 100% online e gratuito de 13 a 19 de Abril",
+    url: "https://super.onebitcode.com/aula1",
+    categories: ["cursos"],
+    className: "-radius",
   }
 ];
