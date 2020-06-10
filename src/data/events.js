@@ -1,8 +1,8 @@
 export default [
   {
-    title: "@MarcoBrunoDev",
-    logo: "/img/collabcode.png",
-    alt: "Logo da CollabCode com o mascote Gueio",
+    title: '@MarcoBrunoDev',
+    logo: '/img/collabcode.png',
+    alt: 'Logo da CollabCode com o mascote Gueio',
     content:
       'Canal focado em troca de conhecimento, tem aulas ao vivo e projetos reais também sendo feito ao vivo, você pode colar e trocar ideia pelo chat.',
     url: 'https://twitch.tv/marcobrunodev',
@@ -10,14 +10,14 @@ export default [
     className: '',
   },
   {
-    title: "@QuarentenaDados",
-    logo: "/img/alura.jpg",
-    alt: "Logo da Alura",
+    title: '@QuarentenaDados',
+    logo: '/img/alura.jpg',
+    alt: 'Logo da Alura',
     content:
-      "Semana de aulas gratuitas de Data Science com Guilherme Silveira. Inscrições até 19 de abril",
-    url: "https://www.alura.com.br/quarentenadados",
-    categories: ["cursos"],
-    className: "-radius",
+      'Semana de aulas gratuitas de Data Science com Guilherme Silveira. Inscrições até 19 de abril',
+    url: 'https://www.alura.com.br/quarentenadados',
+    categories: ['cursos'],
+    className: '-radius',
   },
   {
     title: '@CodigoFalado',
@@ -344,41 +344,52 @@ export default [
     className: '-radius',
   },
   {
-    title: "@UniversoProgramado",
-    logo: "/img/universo-programado.jpg",
-    alt: "Logo do Universo Programado",
-    content: "Canal com vários videos sobre inteligência artificial apresentados por um cara e uma robô muito simpática",
-    url: "https://www.youtube.com/channel/UCf_kacKyoRRUP0nM3obzFbg/featured",
-    categories: ["youtube"],
-    className: "-radius"
-  },
-  {
-    title: "@algaworks",
-    logo: "/img/algaworks.png",
-    alt: "Alga Works em combate ao CONVID-19",
-    content: "Cursos de java e responsividade web gratuitos ou por uma doação de apenas R$100 para o combate ao COVID-19.",
-    url: "https://cafe.algaworks.com/c19/",
-    categories: ["cursos"],
-    className: "-radius"
-  },
-  {
-    title: "@LINUXtips",
-    logo: "/img/linuxtips.jpg",
-    alt: "LINUXtips",
+    title: '@UniversoProgramado',
+    logo: '/img/universo-programado.jpg',
+    alt: 'Logo do Universo Programado',
     content:
-        "LINUXtips tem como objetivo trazer conteúdo e treinamentos de qualidade em português sobre docker, containers, devops, linux e muito mais.",
-    url: "https://www.youtube.com/user/linuxtipscanal",
-    categories: ["youtube"],
-    className: "-radius",
+      'Canal com vários videos sobre inteligência artificial apresentados por um cara e uma robô muito simpática',
+    url: 'https://www.youtube.com/channel/UCf_kacKyoRRUP0nM3obzFbg/featured',
+    categories: ['youtube'],
+    className: '-radius',
   },
   {
-    title: "@onebitcode",
-    logo: "/img/one_bitcode.png",
-    alt: "One Bit Code",
+    title: '@algaworks',
+    logo: '/img/algaworks.png',
+    alt: 'Alga Works em combate ao CONVID-19',
     content:
-      "Evento 100% online e gratuito de 13 a 19 de Abril",
-    url: "https://super.onebitcode.com/aula1",
-    categories: ["cursos"],
-    className: "-radius",
-  }
+      'Cursos de java e responsividade web gratuitos ou por uma doação de apenas R$100 para o combate ao COVID-19.',
+    url: 'https://cafe.algaworks.com/c19/',
+    categories: ['cursos'],
+    className: '-radius',
+  },
+  {
+    title: '@LINUXtips',
+    logo: '/img/linuxtips.jpg',
+    alt: 'LINUXtips',
+    content:
+      'LINUXtips tem como objetivo trazer conteúdo e treinamentos de qualidade em português sobre docker, containers, devops, linux e muito mais.',
+    url: 'https://www.youtube.com/user/linuxtipscanal',
+    categories: ['youtube'],
+    className: '-radius',
+  },
+  {
+    title: '@onebitcode',
+    logo: '/img/one_bitcode.png',
+    alt: 'One Bit Code',
+    content: 'Evento 100% online e gratuito de 13 a 19 de Abril',
+    url: 'https://super.onebitcode.com/aula1',
+    categories: ['cursos'],
+    className: '-radius',
+  },
+  {
+    title: '@afucher',
+    logo: '/img/arthur-fucher.jpg',
+    alt: 'Foto do Arthur Fücher, homem branco de boné e barba',
+    content:
+      'Canal com muito código e aprendizado. Venha ensinar, aprender e compartilhar.',
+    url: 'https://twitch.tv/afucher',
+    categories: ['twitch'],
+    className: '-radius',
+  },
 ];
